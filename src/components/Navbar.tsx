@@ -7,6 +7,33 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const navLinks = [
+    {
+      path: "/",
+      title: "Home",
+    },
+    {
+      path: "/clients",
+      title: "Our Clients",
+    },
+    {
+      path: "/portfolio",
+      title: "Portfolio",
+    },
+    {
+      path: "/testimonials",
+      title: "Testimonials",
+    },
+    {
+      path: "/project-request",
+      title: "Project Request",
+    },
+    {
+      path: "/contact",
+      title: "Contact Me",
+    },
+  ];
+
   return (
     <>
       <header className="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-sm border border-gray-100 bg-transparent py-3 shadow backdrop-blur-lg md:top-6 rounded-full">
