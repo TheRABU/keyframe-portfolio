@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md border border-gray-100 bg-transparent py-3 shadow backdrop-blur-lg md:top-6 rounded-full">
+      <header className="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-sm border border-gray-100 bg-transparent py-3 shadow backdrop-blur-lg md:top-6 rounded-full">
         <div className="px-0">
           <div className="flex items-center space-x-2 justify-between lg:justify-center">
             {/* Logo */}
@@ -26,19 +26,19 @@ const Navbar = () => {
 
             {/* Desktop menu */}
             <div className="hidden md:flex md:items-center md:justify-center md:gap-3">
-              <button className="px-3 py-1.5 rounded-full border-2 text-neutral-300 hover:bg-neutral-950 hover:text-white">
+              <button className="px-2 py-1.5 rounded-full border-1 text-neutral-300 hover:bg-neutral-950 hover:text-white">
                 Our Clients
               </button>
-              <button className="px-3 py-1.5 rounded-full border-2 text-neutral-300 hover:bg-neutral-950 hover:text-white">
+              <button className="px-2 py-1.5 rounded-full hover:border-1 text-neutral-300 hover:bg-neutral-800 hover:text-white">
                 Portfolio
               </button>
-              <button className="px-3 py-1.5 rounded-full border-2 text-neutral-300 hover:bg-neutral-950 hover:text-white">
+              <button className="px-2 py-1.5 rounded-full hover:border-1 text-neutral-300 hover:bg-neutral-800 hover:text-white">
                 Testimonials
               </button>
-              <button className="px-3 py-1.5 rounded-full border-2 text-neutral-300 hover:bg-neutral-950 hover:text-white">
+              <button className="px-2 py-1.5 rounded-full hover:border-1 text-neutral-300 hover:bg-neutral-800 hover:text-white">
                 Project Request
               </button>
-              <button className="px-3 py-1.5 rounded-full border-2 text-neutral-300 hover:bg-neutral-950 hover:text-white">
+              <button className="px-2 py-1.5 rounded-full hover:border-1 text-neutral-300 hover:bg-neutral-800 hover:text-white">
                 Contact Me
               </button>
             </div>
