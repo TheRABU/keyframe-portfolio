@@ -1,4 +1,3 @@
-import SectionHeader from "@/components/SectionHeader";
 import Clients from "@/modules/homepage/Clients";
 import Herosection from "@/modules/homepage/Herosection";
 import ProjectRequest from "@/modules/homepage/ProjectRequest";

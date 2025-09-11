@@ -4,8 +4,8 @@ import logo from "../../assets/logo.png";
 const Herosection = () => {
   const { scrollY } = useScroll();
   const rotate = useTransform(scrollY, [0, 1000], [0, 360]);
-  const glowScale = useTransform(scrollY, [0, 1000], [0.8, 1.2]);
-  const glowOpacity = useTransform(scrollY, [0, 1000], [0.3, 0.7]);
+  // const glowScale = useTransform(scrollY, [0, 1000], [0.8, 1.2]);
+  // const glowOpacity = useTransform(scrollY, [0, 1000], [0.3, 0.7]);
 
   return (
     <>
