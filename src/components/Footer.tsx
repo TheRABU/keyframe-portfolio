@@ -36,11 +36,8 @@ const Footer = () => {
           {/* Logo/Name section */}
           <div className="group">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center transform group-hover:rotate-12 transition duration-500">
-                <span className="text-xl font-bold">MD</span>
-              </div>
               <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
-                Manuel Dala
+                Keyframe Visuals
               </h2>
             </div>
             <p className="text-gray-300 mb-6">

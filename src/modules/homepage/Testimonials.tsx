@@ -35,7 +35,7 @@ const Testimonials = () => {
         <div className="text-center pt-5 mb-10">
           <SectionHeader props="Testimonials" />
         </div>
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+        <section className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2">
           {testimonials.map((eachTest, idx) => (
             <TestimonialCard key={idx} img_url={eachTest.img_url} />
           ))}

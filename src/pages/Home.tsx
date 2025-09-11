@@ -1,7 +1,9 @@
 import SectionHeader from "@/components/SectionHeader";
 import Clients from "@/modules/homepage/Clients";
 import Herosection from "@/modules/homepage/Herosection";
+import ProjectRequest from "@/modules/homepage/ProjectRequest";
 import Projects from "@/modules/homepage/Projects";
+import QnaSection from "@/modules/homepage/QnaSection";
 import Testimonials from "@/modules/homepage/Testimonials";
 
 const Home = () => {
@@ -24,6 +26,12 @@ const Home = () => {
         </div>
         <div>
           <Testimonials />
+        </div>
+        <div>
+          <ProjectRequest />
+        </div>
+        <div>
+          <QnaSection />
         </div>
       </div>
     </>
