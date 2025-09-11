@@ -42,11 +42,11 @@ const Clients = () => {
 
   return (
     <>
-      <section className="h-auto min-h-screen w-full py-12 px-4">
+      <section className="h-auto w-full py-5 px-4">
         <div className="text-center">
           <SectionHeader props="Our Clients" />
         </div>
-        <h2 className="text-5xl font-bold text-center text-gray-400 mb-8">
+        <h2 className="text-5xl font-bold text-center text-gray-400 mb-3">
           Creators <span className="text-white">I've worked with</span>
         </h2>
         <div className="flex flex-wrap justify-center gap-6">

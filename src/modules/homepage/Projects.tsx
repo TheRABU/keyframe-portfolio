@@ -57,7 +57,7 @@ const Projects = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="text-center pt-10">
+        <div className="text-center pt-1">
           <SectionHeader props={"Portfolio"} />
         </div>
         <h2 className="text-5xl font-bold text-center text-gray-400 mb-8">
@@ -123,7 +123,7 @@ const Projects = () => {
                 height="500px"
               />
             </div>
-            <div className="text-center pt-2">
+            <div className="text-center pt-5">
               <a
                 href="#_"
                 className="relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group"

@@ -29,10 +29,10 @@ const ProjectRequest = () => {
           <SectionHeader props="Project Request" />
         </div>
         <form onSubmit={handleSubmit}>
-          <div className="max-w-5xl mx-auto mt-16 flex w-full flex-col border rounded-lg p-8">
+          <div className="max-w-5xl mx-auto mt-7 flex w-full flex-col p-5 space-y-12">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:space-x-3">
               <div className="mb-4 w-full lg:w-3/6">
-                <label htmlFor="name" className="text-2xl leading-7 text-white">
+                <label htmlFor="name" className="text-xl leading-7 text-white">
                   Name
                 </label>
                 <input
@@ -40,14 +40,11 @@ const ProjectRequest = () => {
                   id="name"
                   name="name"
                   placeholder="Your Name"
-                  className="w-full rounded border border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+                  className="w-full rounded-lg border-0 border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
                 />
               </div>
               <div className="mb-4 w-full lg:w-3/6">
-                <label
-                  htmlFor="email"
-                  className="text-2xl leading-7 text-white"
-                >
+                <label htmlFor="email" className="text-xl leading-7 text-white">
                   Email
                 </label>
                 <input
@@ -55,11 +52,11 @@ const ProjectRequest = () => {
                   id="email"
                   name="email"
                   placeholder="john@doe.com"
-                  className="w-full rounded border border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+                  className="w-full rounded-lg border-0 border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
                 />
               </div>
             </div>
-            <div className="flex justify-start items-center w-full space-x-10">
+            <div className="flex justify-between items-start w-full space-x-10">
               {/* Video Type Radio Buttons */}
               <div className="mb-6">
                 <label className="text-2xl leading-7 text-white">
@@ -126,7 +123,7 @@ const ProjectRequest = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-4">
+            <div className="mb-16">
               <label
                 htmlFor="message"
                 className="text-2xl leading-7 text-white"
@@ -137,12 +134,12 @@ const ProjectRequest = () => {
                 id="message"
                 name="message"
                 placeholder="e.g. video references, design, Brand identity"
-                className="h-32 w-full resize-none rounded border border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-6 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+                className="h-32 w-full resize-none rounded-lg border-0 border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-6 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
               ></textarea>
             </div>
             <button
               type="submit"
-              className="rounded border-0 bg-neutral-800 py-2 px-6 text-lg text-white hover:bg-indigo-400 focus:outline-none"
+              className="rounded-lg border-0 bg-neutral-800 py-2 px-6 text-lg text-white hover:bg-indigo-400 focus:outline-none"
             >
               Send
             </button>

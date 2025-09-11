@@ -9,8 +9,8 @@ const Herosection = () => {
 
   return (
     <>
-      <section className="bg-gradient-to-b from-[#090909] to-[#1B1833] dark:bg-gray-900">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+      <section className="bg-gradient-to-t from-[#000000] to-[#181823] dark:bg-gray-900">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:px-12">
           <p className="pt-10 mb-10 font-semibold text-xl text-white mt-3">
             +1 Spots Available
           </p>

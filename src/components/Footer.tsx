@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="group">
             <div className="flex items-center space-x-2 mb-6">
               <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
-                Keyframe Visuals
+                Keyframe.com
               </h2>
             </div>
             <p className="text-gray-300 mb-6">
@@ -189,8 +189,8 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; <span className="text-blue-400">{year}</span> Manuel Dala.
-            All rights reserved.
+            &copy; <span className="text-blue-400">{year}</span> keyframe. All
+            rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white transition">
