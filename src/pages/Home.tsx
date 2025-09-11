@@ -1,4 +1,3 @@
-import Newnav from "@/components/Newnav";
 import Clients from "@/modules/homepage/Clients";
 import Herosection from "@/modules/homepage/Herosection";
 import ProjectRequest from "@/modules/homepage/ProjectRequest";
