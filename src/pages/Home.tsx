@@ -15,19 +15,19 @@ const Home = () => {
             HLDJNA
           </h1>
         </div> */}
-        <div className="">
+        <div id="hero">
           <Herosection />
         </div>
-        <div>
+        <div id="clients">
           <Clients />
         </div>
-        <div>
+        <div id="portfolio">
           <Projects />
         </div>
-        <div>
+        <div id="testimonials">
           <Testimonials />
         </div>
-        <div>
+        <div id="project-request">
           <ProjectRequest />
         </div>
         <div>

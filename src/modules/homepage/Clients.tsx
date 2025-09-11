@@ -5,7 +5,7 @@ const Clients = () => {
   const clients = [
     {
       image:
-        "https://framerusercontent.com/images/C5z57QAFRTpFEQ5yarJrnRF0w.jpg?width=400&height=400",
+        "https://framerusercontent.com/images/DwcT8sXltwRNhKoZtzfkTtClvNs.jpg?width=160&height=160",
       name: "Learn With Shopify",
       stats: "728K subscribers",
       views: "1.2M",
@@ -26,7 +26,7 @@ const Clients = () => {
     },
     {
       image:
-        "https://framerusercontent.com/images/fYRpsfBs5JQmx0HN7TseAzYXiic.jpg?width=160&height=160",
+        "https://framerusercontent.com/images/MAifPhXrzEoKNFLLJzpsLizd0.jpg?width=160&height=160",
       name: "Steven Cravotta",
       stats: "31.5K subscribers",
       views: "120K",
