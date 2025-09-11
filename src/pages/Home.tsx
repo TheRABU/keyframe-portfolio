@@ -2,6 +2,7 @@ import SectionHeader from "@/components/SectionHeader";
 import Clients from "@/modules/homepage/Clients";
 import Herosection from "@/modules/homepage/Herosection";
 import Projects from "@/modules/homepage/Projects";
+import Testimonials from "@/modules/homepage/Testimonials";
 
 const Home = () => {
   return (
@@ -20,6 +21,9 @@ const Home = () => {
         </div>
         <div>
           <Projects />
+        </div>
+        <div>
+          <Testimonials />
         </div>
       </div>
     </>
