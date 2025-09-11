@@ -42,7 +42,7 @@ const Clients = () => {
 
   return (
     <>
-      <section className="h-auto min-h-screen w-full bg-[#1A1A1D] py-12 px-4">
+      <section className="h-auto min-h-screen w-full py-12 px-4">
         <div className="text-center">
           <SectionHeader props="Our Clients" />
         </div>
