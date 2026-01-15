@@ -1,6 +1,5 @@
 import ProjectCard from "@/components/ProjectCard";
 import SectionHeader from "@/components/SectionHeader";
-import Marquee from "react-fast-marquee";
 
 const Projects = () => {
   const projects = [
