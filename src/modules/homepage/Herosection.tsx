@@ -39,7 +39,7 @@ const Herosection = () => {
             <a
               href="www.youtube.com"
               target="_blank"
-              className="group rounded-full border border-[#5B23FF] p-3 px-14 text-lg text-white font-semibold bg-gradient-to-r from-purple-400 to-[#5B23FF] transition-all duration-300 hover:shadow-[0_0_30px_rgba(147,51,234,0.8)] hover:scale-105"
+              className="group rounded-full border border-[#5B23FF] p-3 px-14 text-lg text-white font-semibold bg-gradient-to-r from-purple-400 to-[#5B23FF] transition-all duration-300 hover:shadow-[0_0_50px_rgba(147,51,234,0.8)] hover:scale-105"
             >
               <div className="flex justify-center items-center gap-x-2">
                 <p>Book a Call</p>

@@ -22,11 +22,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         controls
         className="react-player"
       />
-      {title && (
+      {/* {title && (
         <h3 className="mt-2 text-white text-center text-sm font-medium">
           {title}
         </h3>
-      )}
+      )} */}
     </div>
   );
 };
