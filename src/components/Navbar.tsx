@@ -181,13 +181,13 @@ const Navbar = () => {
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="group relative px-5 py-2 rounded-full border border-gray-50 text-neutral-300 whitespace-nowrap text-sm overflow-hidden transition-all duration-300 hover:border-blue-500 hover:shadow-[0_0_20px_rgba(59,130,246,0.6)]"
+              className="group relative px-5 py-2 rounded-full border border-[#5B23FF] text-neutral-300 whitespace-nowrap text-sm overflow-hidden transition-all duration-300 hover:shadow-[0_0_20px_rgba(59,130,246,0.6)]"
             >
               <span className="group-hover:hidden">Thinking big?</span>
               <span className="hidden group-hover:inline text-white">
                 Let's build it
               </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 rounded-full"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-[#5B23FF] opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 rounded-full"></div>
             </button>
           </div>
 

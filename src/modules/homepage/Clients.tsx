@@ -47,7 +47,7 @@ const Clients = () => {
           <SectionHeader props="Our Clients" />
         </div>
         <h2 className="text-5xl font-bold text-center text-gray-400 mb-3">
-          Creators <span className="text-white">I've worked with</span>
+          Creators <span className="text-white">Clients & Collaborations</span>
         </h2>
         <div className="flex flex-wrap justify-center gap-6">
           {clients.map((client, idx) => (
