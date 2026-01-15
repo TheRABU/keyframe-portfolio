@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import keyframeLogo from "../../assets/keyframe_logo.png";
+
 import kf2 from "../../assets/kf2.png";
 import { MdArrowOutward } from "react-icons/md";
 
@@ -50,12 +51,15 @@ const Herosection = () => {
           </div>
 
           <div className="flex items-center justify-center py-12">
-            {/* Logo Image */}
             <motion.img
-              style={{ rotate }}
-              className="h-[250px] w-[250px] object-fill bg-slate-300 rounded-full relative z-10 shadow-[0_0_250px_rgba(147,51,234,0.9)]"
+              style={{
+                rotate,
+                filter:
+                  "drop-shadow(0 0 80px rgba(147,51,234,0.9)) drop-shadow(0 0 160px rgba(147,51,234,0.6)) drop-shadow(0 0 300px rgba(147,51,234,0.3))",
+              }}
               src={keyframeLogo}
               alt="Rotating logo"
+              className="h-[250px] w-[250px] object-contain"
             />
           </div>
         </div>
