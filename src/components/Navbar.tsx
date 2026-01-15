@@ -144,7 +144,7 @@ const Navbar = () => {
                 }}
               >
                 <img
-                  className="h-10 w-auto"
+                  className="h-7 w-auto"
                   src={keyframeLogo}
                   alt="Website Logo"
                 />
