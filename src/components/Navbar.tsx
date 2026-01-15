@@ -1,5 +1,5 @@
 import { IoClose, IoMenu } from "react-icons/io5";
-import Logo from "../assets/logo.png";
+import keyframeLogo from "../assets/keyframe_logo.png";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -144,8 +144,8 @@ const Navbar = () => {
                 }}
               >
                 <img
-                  className="h-10 w-auto bg-white rounded-4xl"
-                  src={Logo}
+                  className="h-10 w-auto"
+                  src={keyframeLogo}
                   alt="Website Logo"
                 />
                 <p className="sr-only">keyframe</p>

@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "motion/react";
-import logo from "../../assets/logo.png";
+import keyframeLogo from "../../assets/keyframe_logo.png";
+import kf2 from "../../assets/kf2.png";
 import { MdArrowOutward } from "react-icons/md";
 
 const Herosection = () => {
@@ -19,11 +20,11 @@ const Herosection = () => {
             <span>High-Retention Editing</span>
             <span className="flex items-center gap-4">
               <span>for</span>
-              <motion.span className="inline-flex items-center justify-center h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 bg-gradient-to-br from-purple-400 to-[#5B23FF] rounded-2xl">
+              <motion.span className="inline-flex items-center justify-center h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24">
                 <span className="text-3xl md:text-4xl lg:text-5xl">
                   <img
                     className="w-8 h-8 md:w-10 md:h-10 lg:w-16 lg:h-16 object-contain"
-                    src={logo}
+                    src={kf2}
                     alt=""
                   />
                 </span>
@@ -52,8 +53,8 @@ const Herosection = () => {
             {/* Logo Image */}
             <motion.img
               style={{ rotate }}
-              className="h-[250px] w-[250px] bg-slate-300 rounded-full relative z-10 shadow-[0_0_250px_rgba(147,51,234,0.9)]"
-              src={logo}
+              className="h-[250px] w-[250px] object-fill bg-slate-300 rounded-full relative z-10 shadow-[0_0_250px_rgba(147,51,234,0.9)]"
+              src={keyframeLogo}
               alt="Rotating logo"
             />
           </div>
