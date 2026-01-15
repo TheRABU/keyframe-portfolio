@@ -8,7 +8,7 @@ import Testimonials from "@/modules/homepage/Testimonials";
 const Home = () => {
   return (
     <>
-      <div className="bg-neutral-900">
+      <div className="bg-gradient-to-b from-[#000000] to-[#181823]">
         {/* <div className="pt-50">
           <h1 className="text-6xl text-white font-semibold text-center">
             HLDJNA

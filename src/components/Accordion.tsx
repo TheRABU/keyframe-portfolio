@@ -3,49 +3,61 @@ const Accordion = () => {
     <>
       <div className="h-auto">
         <div className="text-center mb-2 mt-2">
-          <h1 className="text-2xl lg:text-4xl text-neutral-500 font-semibold">
+          <h1 className="text-2xl lg:text-4xl text-neutral-500 font-semibold mb-10">
             All your Questions <span className="text-white">Answered</span>
           </h1>
         </div>
-        <div className="collapse collapse-arrow text-3xl text-white bg-[#131010] border border-base-300 my-3">
+        <div className="collapse collapse-arrow text-2xl text-white bg-gray-100/5 border border-base-300 my-3 rounded-2xl">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-semibold">
-            Do you guarantee results ?
+          <div className="collapse-title font-light">
+            What type of videos do you edit?
           </div>
           <div className="collapse-content text-sm">
-            Yes — in 99% of cases, I do. I've delivered proven results for tons
-            of clients across various niches. There's no reason it shouldn't
-            work for you too."
+            I specialize in YouTube long-form videos, faceless documentaries,
+            and VSLs, with a strong focus on retention, pacing, and clarity.
           </div>
         </div>
-        <div className="collapse collapse-arrow text-3xl text-white bg-[#131010] border border-base-300 my-3">
+        <div className="collapse collapse-arrow text-2xl text-white bg-[#131010] border border-base-300 my-3">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-            How fast i'll get my videos ?
+            How does the editing process work?
           </div>
           <div className="collapse-content text-sm">
-            It depends on the form and length of the video. For short videos,
-            the turnaround is usually around 2–3 days. For longer videos (7–10
-            minutes), it typically takes around 7–9 days."
+            You send the raw footage and references. I handle the full edit
+            (structure, pacing, visuals, sound design). Revisions are included
+            based on the agreed scope.
           </div>
         </div>
-        <div className="collapse collapse-arrow text-3xl text-white bg-[#131010] border border-base-300 my-3">
+        <div className="collapse collapse-arrow text-2xl text-white bg-[#131010] border border-base-300 my-3">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-            Can I request specific video themes or styles ?
+            How long does an edit usually take?
           </div>
           <div className="collapse-content text-sm">
-            Absolutely! I can customize each video to match your brand’s unique
-            style and vision
+            Turnaround depends on video length and complexity. Most YouTube
+            edits take 2–5 days, documentaries typically take 5–7 days, while
+            VSLs may take longer due to structure and testing requirements.
           </div>
         </div>
-        <div className="collapse collapse-arrow text-3xl text-white bg-[#131010] border border-base-300 my-3">
+        <div className="collapse collapse-arrow text-2xl text-white bg-[#131010] border border-base-300 my-3">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-            Do you offer any FREE revisions ?
+            Do you focus on retention and performance, or just visuals?
           </div>
           <div className="collapse-content text-sm">
-            Do you offer any FREE revisions ?
+            Performance comes first. Every edit is optimized for watch time,
+            engagement, and conversions — visuals support the story, not
+            distract from it.
+          </div>
+        </div>
+        <div className="collapse collapse-arrow text-2xl text-white bg-[#131010] border border-base-300 my-3">
+          <input type="radio" name="my-accordion-2" />
+          <div className="collapse-title font-semibold">
+            How do I get started?
+          </div>
+          <div className="collapse-content text-sm">
+            Book a quick call through Calendly. We’ll discuss your content,
+            goals, and see if we’re a good fit before starting.
           </div>
         </div>
       </div>

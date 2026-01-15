@@ -67,17 +67,13 @@ const ProjectRequest = () => {
                     <input
                       type="radio"
                       name="video-type"
-                      value="Short Form Videos"
+                      value="Long Form/Youtube Videos"
                     />
-                    Short Form Videos
+                    Long form/youtube videos
                   </label>
                   <label className="flex flex-row items-center gap-2 text-neutral-400 text-lg select-none">
-                    <input
-                      type="radio"
-                      name="video-type"
-                      value="Long Form/ Youtube Videos"
-                    />
-                    Long Form/ Youtube Videos
+                    <input type="radio" name="video-type" value="VSL" />
+                    VSL
                   </label>
                   <label className="flex flex-row items-center gap-2 text-neutral-400 text-lg select-none">
                     <input
@@ -85,11 +81,11 @@ const ProjectRequest = () => {
                       name="video-type"
                       value="Motion Graphic / VSL video"
                     />
-                    Motion Graphic / VSL video
+                    Documentaries
                   </label>
                   <label className="flex flex-row items-center gap-2 text-neutral-400 text-lg select-none">
-                    <input type="radio" name="video-type" value="Other" />
-                    Other
+                    <input type="radio" name="video-type" value="Short form" />
+                    Short form
                   </label>
                 </div>
               </div>
@@ -101,24 +97,20 @@ const ProjectRequest = () => {
                 </label>
                 <div className="flex flex-col gap-2 mt-2">
                   <label className="flex flex-row items-center gap-2 text-neutral-400 text-lg select-none">
-                    <input
-                      type="radio"
-                      name="budget-range"
-                      value="Under 500$"
-                    />
-                    Under 500$
+                    <input type="radio" name="budget-range" value="$250" />
+                    $250
                   </label>
                   <label className="flex flex-row items-center gap-2 text-neutral-400 text-lg select-none">
-                    <input type="radio" name="budget-range" value="$500-$1k" />
-                    $500-$1k
+                    <input type="radio" name="budget-range" value="$300-$400" />
+                    $300-$400
+                  </label>
+                  <label className="flex flex-row items-center gap-2 text-neutral-400 text-lg select-none">
+                    <input type="radio" name="budget-range" value="$500-$700" />
+                    $500-$700
                   </label>
                   <label className="flex flex-row items-center gap-2 text-neutral-400 text-lg select-none">
                     <input type="radio" name="budget-range" value="$1k-$2k" />
                     $1k-$2k
-                  </label>
-                  <label className="flex flex-row items-center gap-2 text-neutral-400 text-lg select-none">
-                    <input type="radio" name="budget-range" value="$2k-$5k" />
-                    $2k-$5k
                   </label>
                 </div>
               </div>

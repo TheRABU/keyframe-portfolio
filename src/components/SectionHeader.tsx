@@ -5,7 +5,7 @@ interface SectionHeaderProps {
 const SectionHeader = ({ props }: SectionHeaderProps) => {
   return (
     <>
-      <button className="rounded-full border-1 border-amber-300 p-3 text-sm text-yellow-300 font-semibold bg-[#4d4707] ">
+      <button className="rounded-full border-1 border-[#5B23FF] p-3 text-sm text-purple-500 font-semibold bg-[#160441] ">
         {props}
       </button>
     </>

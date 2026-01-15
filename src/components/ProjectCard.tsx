@@ -9,7 +9,6 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   url,
-  title,
   width = "450px",
   height = "300px",
 }) => {
@@ -22,11 +21,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         controls
         className="react-player"
       />
-      {title && (
+      {/* {title && (
         <h3 className="mt-2 text-white text-center text-sm font-medium">
           {title}
         </h3>
-      )}
+      )} */}
     </div>
   );
 };
