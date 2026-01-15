@@ -9,12 +9,6 @@ const Home = () => {
   return (
     <>
       <div className="bg-gradient-to-b from-[#000000] to-[#181823]">
-        {/* <div className="pt-50">
-          <h1 className="text-6xl text-white font-semibold text-center">
-            HLDJNA
-          </h1>
-        </div> */}
-
         <div id="hero">
           <Herosection />
         </div>

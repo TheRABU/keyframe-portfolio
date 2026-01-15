@@ -40,7 +40,7 @@ const ProjectRequest = () => {
                   id="name"
                   name="name"
                   placeholder="Your Name"
-                  className="w-full rounded-lg border-0 border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
+                  className="w-full rounded-lg mt-2 border-0 border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
                 />
               </div>
               <div className="mb-4 w-full lg:w-3/6">
@@ -52,7 +52,7 @@ const ProjectRequest = () => {
                   id="email"
                   name="email"
                   placeholder="john@doe.com"
-                  className="w-full rounded-lg border-0 border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
+                  className="w-full rounded-lg mt-2 border-0 border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
                 />
               </div>
             </div>
@@ -126,7 +126,7 @@ const ProjectRequest = () => {
                 id="message"
                 name="message"
                 placeholder="e.g. video references, design, Brand identity"
-                className="h-32 w-full resize-none rounded-lg border-0 border-gray-300 bg-neutral-800 py-1 px-3 text-base leading-6 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
+                className="h-32 w-full resize-none rounded-lg border-0 border-gray-300 bg-neutral-800 mt-2 py-1 px-3 text-base leading-6 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-1 focus:ring-indigo-200"
               ></textarea>
             </div>
             <button

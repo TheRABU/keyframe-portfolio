@@ -1,41 +1,41 @@
 import ClientCard from "@/components/ClinetCard";
 import SectionHeader from "@/components/SectionHeader";
+import alexChan from "../../assets/alexchen (145k followers).jpg";
+import marshalCrew from "../../assets/Marshall Crews (150k subscribers).jpg";
+import michaelMorelli from "../../assets/Michael Morelli (132k subscribers).jpg";
+import robtheBank from "../../assets/robthebank (1.2M followers).jpg";
+import davidDorn from "../../assets/thedaviddorn (30.7k followers).jpg";
 
 const Clients = () => {
   const clients = [
     {
-      image:
-        "https://framerusercontent.com/images/DwcT8sXltwRNhKoZtzfkTtClvNs.jpg?width=160&height=160",
-      name: "Learn With Shopify",
-      stats: "728K subscribers",
+      image: alexChan,
+      name: "alexchen",
+      stats: "145K followers",
       views: "1.2M",
     },
     {
-      image:
-        "https://framerusercontent.com/images/C5z57QAFRTpFEQ5yarJrnRF0w.jpg?width=400&height=400",
-      name: "Daniel Contreras",
-      stats: "+400K followers",
+      image: marshalCrew,
+      name: "Marshall Crews",
+      stats: "150K followers",
       views: "800K",
     },
     {
-      image:
-        "https://framerusercontent.com/images/fYRpsfBs5JQmx0HN7TseAzYXiic.jpg?width=160&height=160",
-      name: "Joseph",
-      stats: "100K subscribers",
+      image: michaelMorelli,
+      name: "Michael Morelli",
+      stats: "123K subscribers",
       views: "300K",
     },
     {
-      image:
-        "https://framerusercontent.com/images/MAifPhXrzEoKNFLLJzpsLizd0.jpg?width=160&height=160",
-      name: "Steven Cravotta",
-      stats: "31.5K subscribers",
+      image: robtheBank,
+      name: "robthebank",
+      stats: "1.2M followers",
       views: "120K",
     },
     {
-      image:
-        "https://framerusercontent.com/images/fED3lIegTVuaSFCdtN3tI0XhsRk.png?width=220&height=202",
-      name: "Ruri Ohama",
-      stats: "1.5M subscribers",
+      image: davidDorn,
+      name: "David dorn",
+      stats: "30.7k subscribers",
       views: "2.1M",
     },
   ];

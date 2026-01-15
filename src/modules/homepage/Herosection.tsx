@@ -14,15 +14,19 @@ const Herosection = () => {
     <>
       <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:px-12">
-          <p className="pt-10 mb-8 font-semibold text-xl text-white mt-8">
-            Available for New Projects
-          </p>
+          <div className="flex justify-center items-center pt-10 space-x-1.5">
+            <div className="h-2.5 w-2.5 bg-[#5B23FF] rounded-full"></div>
+            <p className="mb-8 font-semibold text-xl text-white mt-8">
+              Available for New Projects
+            </p>
+          </div>
+
           <h1 className="w-full lg:w-4/6 mx-auto mb-4 text-4xl font-semibold tracking-tight leading-none text-white md:text-5xl lg:text-6xl flex flex-wrap items-center justify-center gap-4">
             <span>High-Retention Editing</span>
-            <span className="flex items-center gap-4">
+            <span className="flex items-center justify-start gap-1">
               <span>for</span>
               <motion.span className="inline-flex items-center justify-center h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24">
-                <span className="text-3xl md:text-4xl lg:text-5xl">
+                <span className="text-3xl md:text-4xl lg:text-5xl mt-2">
                   <img
                     className="w-8 h-8 md:w-10 md:h-10 lg:w-16 lg:h-16 object-contain"
                     src={kf2}

@@ -17,9 +17,9 @@ const Accordion = () => {
             and VSLs, with a strong focus on retention, pacing, and clarity.
           </div>
         </div>
-        <div className="collapse collapse-arrow text-2xl text-white bg-[#131010] border border-base-300 my-3">
+        <div className="collapse collapse-arrow text-2xl text-white bg-gray-100/5 border border-base-300 my-3">
           <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title font-semibold">
+          <div className="collapse-title font-light">
             How does the editing process work?
           </div>
           <div className="collapse-content text-sm">
@@ -28,9 +28,9 @@ const Accordion = () => {
             based on the agreed scope.
           </div>
         </div>
-        <div className="collapse collapse-arrow text-2xl text-white bg-[#131010] border border-base-300 my-3">
+        <div className="collapse collapse-arrow text-2xl text-white bg-gray-100/5 border border-base-300 my-3">
           <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title font-semibold">
+          <div className="collapse-title font-light">
             How long does an edit usually take?
           </div>
           <div className="collapse-content text-sm">
@@ -39,9 +39,9 @@ const Accordion = () => {
             VSLs may take longer due to structure and testing requirements.
           </div>
         </div>
-        <div className="collapse collapse-arrow text-2xl text-white bg-[#131010] border border-base-300 my-3">
+        <div className="collapse collapse-arrow text-2xl text-white bg-gray-100/5 border border-base-300 my-3">
           <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title font-semibold">
+          <div className="collapse-title font-light">
             Do you focus on retention and performance, or just visuals?
           </div>
           <div className="collapse-content text-sm">
@@ -50,11 +50,9 @@ const Accordion = () => {
             distract from it.
           </div>
         </div>
-        <div className="collapse collapse-arrow text-2xl text-white bg-[#131010] border border-base-300 my-3">
+        <div className="collapse collapse-arrow text-2xl text-white bg-gray-100/5 border border-base-300 my-3">
           <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title font-semibold">
-            How do I get started?
-          </div>
+          <div className="collapse-title font-light">How do I get started?</div>
           <div className="collapse-content text-sm">
             Book a quick call through Calendly. We’ll discuss your content,
             goals, and see if we’re a good fit before starting.
