@@ -44,7 +44,7 @@ const Navbar = () => {
             <div className="hidden md:flex md:items-center md:justify-center md:gap-3">
               <button
                 onClick={() => scrollToSection("clients")}
-                className="px-2 py-1.5 rounded-full border-1 text-neutral-300 hover:bg-neutral-950 hover:text-white"
+                className="px-2 py-1.5 rounded-full hover:border-1 text-neutral-300 hover:bg-neutral-950 hover:text-white"
               >
                 Our Clients
               </button>
@@ -68,7 +68,7 @@ const Navbar = () => {
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="px-2 py-1.5 rounded-full hover:border-1 text-neutral-300 hover:bg-neutral-800 hover:text-white"
+                className="px-2 py-1.5 rounded-full border-1 text-neutral-300 hover:bg-neutral-800 hover:text-white"
               >
                 Contact Me
               </button>
