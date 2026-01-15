@@ -96,7 +96,7 @@ const Projects = () => {
         </div>
 
         {/* short form */}
-        <div className="flex flex-col">
+        {/* <div className="flex flex-col">
           <div className="flex justify-between items-center px-20">
             <div>
               <h3 className="text-4xl font-semibold text-white">Short Form</h3>
@@ -130,7 +130,6 @@ const Projects = () => {
         </div>
 
         <div className="relative w-full py-6 overflow-hidden">
-          {/* constrain marquee width */}
           <div className="mx-auto max-w-2xl">
             <Marquee
               gradient={true}
@@ -151,7 +150,7 @@ const Projects = () => {
               </div>
             </Marquee>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
