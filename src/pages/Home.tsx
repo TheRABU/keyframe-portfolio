@@ -1,9 +1,10 @@
+import TestimonialsDemo from "@/components/TestimonialsDemo";
 import Clients from "@/modules/homepage/Clients";
 import Herosection from "@/modules/homepage/Herosection";
 import ProjectRequest from "@/modules/homepage/ProjectRequest";
 import Projects from "@/modules/homepage/Projects";
 import QnaSection from "@/modules/homepage/QnaSection";
-import Testimonials from "@/modules/homepage/Testimonials";
+// import Testimonials from "@/modules/homepage/Testimonials";
 
 const Home = () => {
   return (
@@ -19,7 +20,8 @@ const Home = () => {
           <Projects />
         </div>
         <div id="testimonials">
-          <Testimonials />
+          {/* <Testimonials /> */}
+          <TestimonialsDemo />
         </div>
         <div id="project-request">
           <ProjectRequest />

@@ -1,5 +1,16 @@
 import ProjectCard from "@/components/ProjectCard";
 import SectionHeader from "@/components/SectionHeader";
+import Marquee from "react-fast-marquee";
+import company1 from "../../assets/companies/1.png";
+import company2 from "../../assets/companies/2_00000.png";
+import company3 from "../../assets/companies/3_00000.png";
+import company4 from "../../assets/companies/4_00000.png";
+import company5 from "../../assets/companies/5_00000.png";
+import company6 from "../../assets/companies/6_00000.png";
+import company7 from "../../assets/companies/7_00000.png";
+import company8 from "../../assets/companies/8_00000.png";
+import company9 from "../../assets/companies/9_00000.png";
+import company10 from "../../assets/companies/10.png";
 
 const Projects = () => {
   const projects = [
@@ -57,7 +68,7 @@ const Projects = () => {
             </h3>
           </div>
           <div>
-            <hr className="h-1 w-full px-5 lg:px-50 bg-gray-500" />
+            <hr className="h-1 px-7 bg-[#5B23FF]" />
           </div>
         </div>
         <section className="py-12 px-4">
@@ -77,7 +88,7 @@ const Projects = () => {
               </h3>
             </div>
             <div>
-              <hr className="h-1 w-full px-5 lg:px-50 bg-gray-500" />
+              <hr className="h-1 px-7 bg-[#5B23FF]" />
             </div>
           </div>
           <section className="py-12 px-4">
@@ -126,9 +137,12 @@ const Projects = () => {
               </a>
             </div>
           </section>
-        </div>
+        </div> */}
 
         <div className="relative w-full py-6 overflow-hidden">
+          <div className="text-center mb-10 mt-10">
+            <SectionHeader props="Companies" />
+          </div>
           <div className="mx-auto max-w-2xl">
             <Marquee
               gradient={true}
@@ -136,20 +150,81 @@ const Projects = () => {
               speed={90}
             >
               <div className="mx-8">
-                <h2 className="text-4xl text-white">Denim</h2>
+                {/* <h2 className="text-4xl text-white">Denim</h2> */}
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company1}
+                  alt=""
+                />
               </div>
               <div className="mx-8">
-                <h2 className="text-4xl text-white">Nescafe</h2>
+                {/* <h2 className="text-4xl text-white">Nescafe</h2> */}
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company2}
+                  alt=""
+                />
               </div>
               <div className="mx-8">
-                <h2 className="text-4xl text-white">Nafis Salim</h2>
+                {/* <h2 className="text-4xl text-white">Nafis Salim</h2> */}
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company3}
+                  alt=""
+                />
               </div>
               <div className="mx-8">
-                <h2 className="text-4xl text-white">Yahia Amin</h2>
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company4}
+                  alt=""
+                />
+              </div>
+              <div className="mx-8">
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company5}
+                  alt=""
+                />
+              </div>
+              <div className="mx-8">
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company6}
+                  alt=""
+                />
+              </div>
+              <div className="mx-8">
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company7}
+                  alt=""
+                />
+              </div>
+              <div className="mx-8">
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company8}
+                  alt=""
+                />
+              </div>
+              <div className="mx-8">
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company9}
+                  alt=""
+                />
+              </div>
+              <div className="mx-8">
+                <img
+                  className="object-cover h-16 w-full"
+                  src={company10}
+                  alt=""
+                />
               </div>
             </Marquee>
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );

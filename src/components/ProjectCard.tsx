@@ -9,8 +9,8 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   url,
-  width = "320px",
-  height = "190px",
+  width = "190px",
+  height = "150px",
 }) => {
   return (
     <div className="w-full overflow-hidden rounded-xl shadow-lg">
