@@ -21,7 +21,6 @@ const ClientCard = ({
     <>
       <main className="flex flex-col">
         <div className="relative group w-44 sm:w-48 md:w-52 lg:w-56 xl:w-[152px] flex-shrink-0 cursor-pointer">
-          {/* Card image */}
           <div className="overflow-hidden rounded-2xl shadow-md">
             <img
               src={image}
