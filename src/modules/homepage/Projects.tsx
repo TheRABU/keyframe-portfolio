@@ -70,7 +70,7 @@ const Projects = () => {
 
       <div className="px-4 lg:px-20 mb-8">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-20">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-28">
             Youtube & VSL's
           </h3>
           <div className="hidden lg:block flex-1 mx-8">
@@ -78,7 +78,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:px-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:px-28">
           {projects.map((project, idx) => (
             <NewProjectCard key={idx} link={project.url} img={project.img} />
           ))}
@@ -87,7 +87,7 @@ const Projects = () => {
 
       <div className="px-4 lg:px-20 mb-12">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-20">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-28">
             Documentaries
           </h3>
           <div className="hidden lg:block flex-1 mx-8">
@@ -95,7 +95,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6 lg:px-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:px-28">
           {documentaries.map((project, idx) => (
             <NewProjectCard key={idx} link={project.url} img={project.img} />
           ))}
