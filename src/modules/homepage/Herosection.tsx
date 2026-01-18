@@ -23,7 +23,7 @@ const Herosection = () => {
 
           <h1 className="w-full mx-auto mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl tracking-tight leading-tight font-sf-pro font-thin text-white flex flex-wrap items-center justify-center gap-1 sm:gap-2 px-2">
             <span className="inline-block">High-Retention</span>
-            <span className="font-apple text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl text-[#6A5FFE] px-2 sm:px-3 md:px-5 inline-block">
+            <span className="font-apple text-[#6A5FFE] px-2 sm:px-3 md:px-5 inline-block">
               Editing
             </span>
             <span className="flex items-center justify-center gap-1 sm:gap-2 flex-wrap">
