@@ -21,27 +21,27 @@ const Herosection = () => {
             </p>
           </div>
 
-          <h1 className="w-full mx-auto mb-4 text-4xl tracking-tight leading-none font-sf-pro font-thin text-white md:text-5xl lg:text-8xl flex flex-wrap items-center justify-center gap-0.5">
-            High-Retention
-            <span className="font-apple text-[#6A5FFE] px-5">Editing</span>
-            <span className="flex items-center justify-start gap-1">
-              <span>for</span>
+          <h1 className="w-full mx-auto mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl tracking-tight leading-tight font-sf-pro font-thin text-white flex flex-wrap items-center justify-center gap-1 sm:gap-2 px-2">
+            <span className="inline-block">High-Retention</span>
+            <span className="font-apple text-[#6A5FFE] px-2 sm:px-3 md:px-5 inline-block">
+              Editing
+            </span>
+            <span className="flex items-center justify-center gap-1 sm:gap-2 flex-wrap">
+              <span className="inline-block">for</span>
               <motion.span
                 style={{
                   filter:
                     "drop-shadow(0 0 80px rgba(147,51,234,0.9)) drop-shadow(0 0 160px rgba(147,51,234,0.6)) drop-shadow(0 0 300px rgba(147,51,234,0.3))",
                 }}
-                className="inline-flex items-center justify-center bg-gradient-to-r from-purple-500 to-[#6A5FFE] h-16 w-16 md:h-20 md:w-20 lg:h-18 lg:w-18 rounded-2xl mx-1 md:mx-8 shadow-[0_0_50px_rgba(147,51,234,0.8)] hover:scale-105"
+                className="inline-flex items-center justify-center bg-gradient-to-r from-purple-500 to-[#6A5FFE] h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 lg:h-20 lg:w-20 xl:h-24 xl:w-24 rounded-xl sm:rounded-2xl mx-1 sm:mx-2 md:mx-4 shadow-[0_0_50px_rgba(147,51,234,0.8)] hover:scale-105 transition-transform duration-300"
               >
-                <span className="text-3xl md:text-4xl lg:text-5xl">
-                  <img
-                    className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-16 object-contain"
-                    src={logoBlack}
-                    alt=""
-                  />
-                </span>
+                <img
+                  className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 object-contain"
+                  src={logoBlack}
+                  alt="Keyframe logo"
+                />
               </motion.span>
-              <span>YouTube & VSLs</span>
+              <span className="inline-block">YouTube & VSLs</span>
             </span>
           </h1>
           {/* <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
@@ -50,7 +50,7 @@ const Herosection = () => {
           </p> */}
           <div className="flex flex-col mt-0 mb-8 lg:mb-16 lg:mt-10 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
-              href="www.youtube.com"
+              href="https://calendly.com/director-keyframe/30min"
               target="_blank"
               className="group rounded-full border border-[#5B23FF] p-3 px-14 text-lg text-white font-semibold bg-gradient-to-r from-purple-500 to-[#6A5FFE] transition-all duration-300 hover:shadow-[0_0_50px_rgba(147,51,234,0.8)] hover:scale-105"
             >

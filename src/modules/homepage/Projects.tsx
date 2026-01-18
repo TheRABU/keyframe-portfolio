@@ -11,6 +11,8 @@ import company7 from "../../assets/companies/7_00000.png";
 import company8 from "../../assets/companies/8_00000.png";
 import company9 from "../../assets/companies/9_00000.png";
 import company10 from "../../assets/companies/10.png";
+import company11 from "../../assets/companies/11.png";
+import company12 from "../../assets/companies/12.png";
 
 // thumbnails
 import thumb1 from "../../assets/thumbnails/maxresdefault.jpg";
@@ -82,6 +84,8 @@ const Projects = () => {
               company8,
               company9,
               company10,
+              company11,
+              company12,
             ].map((company, idx) => (
               <div key={idx} className="mx-8 flex items-center">
                 <img
@@ -95,34 +99,34 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="px-4 lg:px-20 mb-8">
+      <div className="px-4 sm:px-6 md:px-10 lg:px-20 xl:px-28 mb-8">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-28">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold text-white">
             Youtube & VSL's
           </h3>
-          <div className="hidden lg:block flex-1 mx-28">
-            <hr className="h-max left-2 bg-[#6A5FFE]" />
+          <div className="hidden lg:block flex-1 lg:ml-8 xl:ml-16">
+            <hr className="h-px bg-[#6A5FFE] border-0" />
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:px-28">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {projects.map((project, idx) => (
             <NewProjectCard key={idx} link={project.url} img={project.img} />
           ))}
         </div>
       </div>
 
-      <div className="px-4 lg:px-20 mb-12">
+      <div className="px-4 sm:px-6 md:px-10 lg:px-20 xl:px-28 mb-8">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-28">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white">
             Documentaries
           </h3>
-          <div className="hidden lg:block flex-1 mx-28">
-            <hr className="h-max bg-[#5B23FF]" />
+          <div className="hidden lg:block flex-1 lg:ml-8 xl:ml-16">
+            <hr className="h-px bg-[#5B23FF] border-0" />
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:px-28">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {documentaries.map((project, idx) => (
             <NewProjectCard key={idx} link={project.url} img={project.img} />
           ))}

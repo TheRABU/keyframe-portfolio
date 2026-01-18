@@ -1,17 +1,21 @@
 import Accordion from "@/components/Accordion";
+import keyframeAnimation from "../../assets/keyframe logo animation 1_3.mp4";
 
 const QnaSection = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-start justify-center px-3 lg:px-10 lg:space-x-5 space-y-5 lg:space-y-0 py-10">
-        <div className="left-img px-16 lg:px-0">
-          <img
-            className="h-full w-[500px] rounded-xl"
-            src="https://framerusercontent.com/images/C5tEGNA1uWSSAURIZ0Z6rv88r6A.gif?scale-down-to=512&width=800&height=800"
-            alt=""
+      <div className="bg-[#000000] flex flex-col lg:flex-row items-center lg:items-start justify-center px-4 sm:px-6 md:px-8 lg:px-10 gap-5 lg:gap-8 py-10">
+        <div className="w-full lg:w-auto flex justify-center">
+          <video
+            className="w-full max-w-[500px] h-auto rounded-xl object-cover"
+            src={keyframeAnimation}
+            autoPlay
+            loop
+            muted
+            playsInline
           />
         </div>
-        <div className="w-full md:w-5/12">
+        <div className="w-full lg:w-5/12">
           <Accordion />
         </div>
       </div>

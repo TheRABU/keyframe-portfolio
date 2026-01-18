@@ -12,33 +12,43 @@ const Clients = () => {
   const clients = [
     {
       image: davidDorn,
-      name: "David dorn",
+      name: "thedaviddorn",
       stats: "30.7k subscribers",
       views: "2.1M",
+      link: "https://www.instagram.com/thedaviddorn/?hl=en",
+      platform: "instagram" as const,
     },
     {
       image: kikivintage,
-      name: "Kiki Vintage",
+      name: "kikivintage.de",
       stats: "127k followers",
       views: "127k",
+      link: "https://www.instagram.com/kikivintage.de/?hl=en",
+      platform: "instagram" as const,
     },
     {
       image: michaelMorelli,
       name: "Michael Morelli",
       stats: "123K subscribers",
       views: "300K",
+      link: "https://www.youtube.com/@MorelliFit",
+      platform: "youtube" as const,
     },
     {
       image: alexChan,
       name: "alexchen",
       stats: "145K followers",
       views: "1.2M",
+      link: "https://www.instagram.com/alexchen/?hl=en",
+      platform: "instagram" as const,
     },
     {
       image: marshalCrew,
       name: "Marshall Crews",
       stats: "150K followers",
       views: "800K",
+      link: "https://www.youtube.com/@marshallcrews_/featured",
+      platform: "youtube" as const,
     },
 
     {
@@ -46,12 +56,14 @@ const Clients = () => {
       name: "robthebank",
       stats: "1.2M followers",
       views: "120K",
+      link: "https://www.instagram.com/robthebank/?hl=en",
+      platform: "instagram" as const,
     },
   ];
 
   return (
     <>
-      <section className="h-auto w-full py-5 px-4 bg-gradient-to-b from-[#000000] to-[#181823]">
+      <section className="h-auto w-full py-5 px-4">
         <div className="text-center">
           <SectionHeader props="Our Clients" />
         </div>

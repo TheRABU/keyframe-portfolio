@@ -24,8 +24,8 @@ const ProjectRequest = () => {
 
   return (
     <>
-      <div>
-        <div className="text-center mt-2">
+      <div className="bg-[#000000]">
+        <div className="text-center">
           <SectionHeader props="Project Request" />
         </div>
         <form onSubmit={handleSubmit}>
