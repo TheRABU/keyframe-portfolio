@@ -5,10 +5,29 @@ import marshalCrew from "../../assets/Marshall Crews (150k subscribers).jpg";
 import michaelMorelli from "../../assets/Michael Morelli (132k subscribers).jpg";
 import robtheBank from "../../assets/robthebank (1.2M followers).jpg";
 import davidDorn from "../../assets/thedaviddorn (30.7k followers).jpg";
+import kikivintage from "../../assets/kikivintage.de (127k followers).jpg";
 import AnimatedCounter from "@/components/AnimatedCounter";
 
 const Clients = () => {
   const clients = [
+    {
+      image: davidDorn,
+      name: "David dorn",
+      stats: "30.7k subscribers",
+      views: "2.1M",
+    },
+    {
+      image: kikivintage,
+      name: "Kiki Vintage",
+      stats: "127k followers",
+      views: "127k",
+    },
+    {
+      image: michaelMorelli,
+      name: "Michael Morelli",
+      stats: "123K subscribers",
+      views: "300K",
+    },
     {
       image: alexChan,
       name: "alexchen",
@@ -21,23 +40,12 @@ const Clients = () => {
       stats: "150K followers",
       views: "800K",
     },
-    {
-      image: michaelMorelli,
-      name: "Michael Morelli",
-      stats: "123K subscribers",
-      views: "300K",
-    },
+
     {
       image: robtheBank,
       name: "robthebank",
       stats: "1.2M followers",
       views: "120K",
-    },
-    {
-      image: davidDorn,
-      name: "David dorn",
-      stats: "30.7k subscribers",
-      views: "2.1M",
     },
   ];
 

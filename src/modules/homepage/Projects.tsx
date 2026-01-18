@@ -68,13 +68,40 @@ const Projects = () => {
         Featured <span className="text-white">Projects</span>
       </h2>
 
+      <div className="relative w-full py-6 overflow-hidden">
+        <div className="mx-auto max-w-6xl">
+          <Marquee gradient={true} gradientColor={"#000000"} speed={100}>
+            {[
+              company1,
+              company2,
+              company3,
+              company4,
+              company5,
+              company6,
+              company7,
+              company8,
+              company9,
+              company10,
+            ].map((company, idx) => (
+              <div key={idx} className="mx-8 flex items-center">
+                <img
+                  className="object-contain h-12 md:h-16 w-40 grayscale hover:grayscale-0 transition-all duration-300"
+                  src={company}
+                  alt={`Company ${idx + 1}`}
+                />
+              </div>
+            ))}
+          </Marquee>
+        </div>
+      </div>
+
       <div className="px-4 lg:px-20 mb-8">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-28">
             Youtube & VSL's
           </h3>
-          <div className="hidden lg:block flex-1 mx-8">
-            <hr className="h-1 left-2 bg-gradient-to-r from-transparent to-purple-600" />
+          <div className="hidden lg:block flex-1 mx-28">
+            <hr className="h-max left-2 bg-[#5B23FF]" />
           </div>
         </div>
 
@@ -90,8 +117,8 @@ const Projects = () => {
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-28">
             Documentaries
           </h3>
-          <div className="hidden lg:block flex-1 mx-8">
-            <hr className="h-1 bg-gradient-to-r from-transparent to-purple-600" />
+          <div className="hidden lg:block flex-1 mx-28">
+            <hr className="h-max bg-[#5B23FF]" />
           </div>
         </div>
 
@@ -99,36 +126,6 @@ const Projects = () => {
           {documentaries.map((project, idx) => (
             <NewProjectCard key={idx} link={project.url} img={project.img} />
           ))}
-        </div>
-      </div>
-
-      <div className="relative w-full py-12 overflow-hidden">
-        <div className="text-center mb-10">
-          <SectionHeader props="Companies" />
-        </div>
-        <div className="mx-auto max-w-6xl">
-          <Marquee gradient={true} gradientColor={"#000000"} speed={50}>
-            {[
-              company1,
-              company2,
-              company3,
-              company4,
-              company5,
-              company6,
-              company7,
-              company8,
-              company9,
-              company10,
-            ].map((company, idx) => (
-              <div key={idx} className="mx-8 flex items-center">
-                <img
-                  className="object-contain h-12 md:h-16 w-auto grayscale hover:grayscale-0 transition-all duration-300"
-                  src={company}
-                  alt={`Company ${idx + 1}`}
-                />
-              </div>
-            ))}
-          </Marquee>
         </div>
       </div>
     </div>

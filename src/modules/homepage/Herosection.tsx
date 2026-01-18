@@ -21,7 +21,7 @@ const Herosection = () => {
             </p>
           </div>
 
-          <h1 className="w-full lg:w-4/6 mx-auto mb-4 text-4xl font-semibold tracking-tight leading-none text-white md:text-5xl lg:text-6xl flex flex-wrap items-center justify-center gap-4">
+          <h1 className="w-full lg:w-4/6 mx-auto mb-4 text-4xl font-semibold tracking-tight leading-none text-white md:text-5xl lg:text-7xl flex flex-wrap items-center justify-center gap-0.5">
             <span>High-Retention Editing</span>
             <span className="flex items-center justify-start gap-1">
               <span>for</span>
