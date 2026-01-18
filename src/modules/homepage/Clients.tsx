@@ -5,6 +5,7 @@ import marshalCrew from "../../assets/Marshall Crews (150k subscribers).jpg";
 import michaelMorelli from "../../assets/Michael Morelli (132k subscribers).jpg";
 import robtheBank from "../../assets/robthebank (1.2M followers).jpg";
 import davidDorn from "../../assets/thedaviddorn (30.7k followers).jpg";
+import AnimatedCounter from "@/components/AnimatedCounter";
 
 const Clients = () => {
   const clients = [
@@ -50,32 +51,29 @@ const Clients = () => {
           Clients <span className="text-white">& Collaborations</span>
         </h2>
         <div className="mx-auto mt-4 mb-14 flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between lg:gap-0 max-w-6xl">
-          {/* Projects */}
           <div className="flex flex-col items-center text-center flex-1">
             <h1 className="text-4xl md:text-5xl font-semibold text-white">
-              <span className="text-[#5B23FF]">+</span>450
+              <span className="text-[#5B23FF]">+</span>
+              <AnimatedCounter end={450} duration={2500} />
             </h1>
             <p className="text-gray-300 mt-2">Projects Completed</p>
           </div>
 
-          {/* Divider */}
           <div className="hidden lg:block h-16 w-px bg-white/30"></div>
 
-          {/* Clients */}
           <div className="flex flex-col items-center text-center flex-1">
             <h1 className="text-4xl md:text-5xl font-semibold text-white">
-              <span className="text-[#5B23FF]">+</span>45
+              <span className="text-[#5B23FF]">+</span>
+              <AnimatedCounter end={45} duration={2000} />
             </h1>
             <p className="text-gray-300 mt-2">Satisfied Clients</p>
           </div>
 
-          {/* Divider */}
           <div className="hidden lg:block h-16 w-px bg-white/30"></div>
-
-          {/* Views */}
           <div className="flex flex-col items-center text-center flex-1">
             <h1 className="text-4xl md:text-5xl font-semibold text-white">
-              <span className="text-[#5B23FF]">+</span>13M
+              <span className="text-[#5B23FF]">+</span>
+              <AnimatedCounter end={17} duration={2000} suffix="M" />
             </h1>
             <p className="text-gray-300 mt-2">Views</p>
           </div>

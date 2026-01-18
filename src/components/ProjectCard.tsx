@@ -9,7 +9,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   url,
-  width = "190px",
+  width = "150px",
   height = "150px",
 }) => {
   return (

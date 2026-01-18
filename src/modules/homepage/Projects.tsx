@@ -1,4 +1,4 @@
-import ProjectCard from "@/components/ProjectCard";
+import NewProjectCard from "@/components/NewProjectCard";
 import SectionHeader from "@/components/SectionHeader";
 import Marquee from "react-fast-marquee";
 import company1 from "../../assets/companies/1.png";
@@ -12,221 +12,126 @@ import company8 from "../../assets/companies/8_00000.png";
 import company9 from "../../assets/companies/9_00000.png";
 import company10 from "../../assets/companies/10.png";
 
+// thumbnails
+import thumb1 from "../../assets/thumbnails/maxresdefault.jpg";
+import thumb2 from "../../assets/thumbnails/maxresdefault (1).jpg";
+import thumb3 from "../../assets/thumbnails/maxresdefault (2).jpg";
+import thumb4 from "../../assets/thumbnails/maxresdefault (3).jpg";
+import thumb5 from "../../assets/thumbnails/hook 2_00000.jpg";
+import thumb6 from "../../assets/thumbnails/x.jpg";
+
+//documentary thumbnails
+import docum1 from "../../assets/thumbnails/docum1.jpg";
+import docum2 from "../../assets/thumbnails/docum2.jpg";
+import docum3 from "../../assets/thumbnails/docum3.jpg";
+
 const Projects = () => {
   const projects = [
-    { url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", title: "Project 1" },
+    { url: "https://www.youtube.com/watch?v=ytMXoy6raoI", img: thumb1 },
     {
-      url: "https://youtu.be/8qX0VIVxivU?si=682P_OyZ7qJtxh91",
-      title: "Project 2",
+      url: "https://www.youtube.com/watch?v=zOm_YxsnyMY&t",
+      img: thumb2,
     },
-    { url: "https://www.youtube.com/watch?v=jNQXAC9IVRw", title: "Project 3" },
-    { url: "https://www.youtube.com/watch?v=ScMzIvxBSi4", title: "Project 4" },
-    { url: "https://www.youtube.com/watch?v=oHg5SJYRHA0", title: "Project 5" },
-    { url: "https://www.youtube.com/watch?v=aqz-KE-bpKQ", title: "Project 6" },
+    {
+      url: "https://www.youtube.com/watch?v=aq8QnltLW_w&t=3s",
+      img: thumb3,
+    },
+    {
+      url: "https://www.youtube.com/watch?v=zKYsdDgRqtA&t=99s",
+      img: thumb4,
+    },
+    { url: "https://youtu.be/v0F_kgOGQds", img: thumb5 },
+    { url: "https://youtu.be/bJEYBf0EEv4", img: thumb6 },
   ];
 
-  const motionGraphics = [
+  const documentaries = [
     {
-      url: "https://youtu.be/8qX0VIVxivU?si=682P_OyZ7qJtxh91",
-      title: "Project 1",
+      url: "https://www.youtube.com/watch?v=ZfSJbyif2xw&t=1s",
+      img: docum1,
     },
     {
-      url: "https://youtu.be/8qX0VIVxivU?si=682P_OyZ7qJtxh91",
-      title: "Project 2",
+      url: "https://www.youtube.com/watch?v=ZOHJ8pnIIZM",
+      img: docum2,
     },
     {
-      url: "https://youtu.be/8qX0VIVxivU?si=682P_OyZ7qJtxh91",
-      title: "Project 3",
-    },
-    {
-      url: "https://youtu.be/8qX0VIVxivU?si=682P_OyZ7qJtxh91",
-      title: "Project 4",
-    },
-    {
-      url: "https://youtu.be/8qX0VIVxivU?si=682P_OyZ7qJtxh91",
-      title: "Project 5",
-    },
-    {
-      url: "https://youtu.be/8qX0VIVxivU?si=682P_OyZ7qJtxh91",
-      title: "Project 6",
+      url: "https://www.youtube.com/watch?v=tWrDeHl2nXU",
+      img: docum3,
     },
   ];
 
   return (
-    <>
-      <div className="flex flex-col">
-        <div className="text-center pt-1 mt-8">
-          <SectionHeader props={"Portfolio"} />
-        </div>
-        <h2 className="text-5xl font-semibold text-center text-gray-400 mt-6 mb-8">
-          Featured <span className="text-white">Projects</span>
-        </h2>
-        <div className="flex justify-between items-center px-20">
-          <div>
-            <h3 className="text-4xl font-semibold text-white">
-              VSL's & Youtube
-            </h3>
+    <div className="flex flex-col">
+      <div className="text-center pt-12 mt-8">
+        <SectionHeader props={"Portfolio"} />
+      </div>
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-center text-gray-400 mt-6 mb-12 px-4">
+        Featured <span className="text-white">Projects</span>
+      </h2>
+
+      <div className="px-4 lg:px-20 mb-8">
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-20">
+            Youtube & VSL's
+          </h3>
+          <div className="hidden lg:block flex-1 mx-8">
+            <hr className="h-1 left-2 bg-gradient-to-r from-transparent to-purple-600" />
           </div>
-          <div>
-            <hr className="h-1 px-7 bg-[#5B23FF]" />
-          </div>
-        </div>
-        <section className="py-12 px-4">
-          {/* Grid Layout */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 px-4 lg:px-20">
-            {projects.map((project, idx) => (
-              <ProjectCard key={idx} url={project.url} title={project.title} />
-            ))}
-          </div>
-        </section>
-        {/* Motion graphics section */}
-        <div className="flex flex-col">
-          <div className="flex justify-between items-center px-20">
-            <div>
-              <h3 className="text-4xl font-semibold text-white">
-                Documentaries
-              </h3>
-            </div>
-            <div>
-              <hr className="h-1 px-7 bg-[#5B23FF]" />
-            </div>
-          </div>
-          <section className="py-12 px-4">
-            {/* Grid Layout */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 px-4 lg:px-14">
-              {motionGraphics.slice(0, 3).map((project, idx) => (
-                <ProjectCard
-                  key={idx}
-                  url={project.url}
-                  title={project.title}
-                />
-              ))}
-            </div>
-          </section>
         </div>
 
-        {/* short form */}
-        {/* <div className="flex flex-col">
-          <div className="flex justify-between items-center px-20">
-            <div>
-              <h3 className="text-4xl font-semibold text-white">Short Form</h3>
-            </div>
-            <div>
-              <hr className="h-1 w-full px-5 lg:px-50 bg-gray-500" />
-            </div>
-          </div>
-          <section className="py-12 mx-auto">
-            <div className="grid grid-cols-1 px-8 lg:px-14">
-              <ProjectCard
-                url={"https://youtu.be/VHAK-gU9gi0?si=g1qjWY7Y2xFnbBfK"}
-                width="850px"
-                height="500px"
-              />
-            </div>
-            <div className="text-center pt-5">
-              <a
-                href="#_"
-                className="relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group"
-              >
-                <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
-                <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
-                <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900">
-                  Contact Me
-                </span>
-                <span className="absolute inset-0 border-2 border-white rounded-full"></span>
-              </a>
-            </div>
-          </section>
-        </div> */}
-
-        <div className="relative w-full py-6 overflow-hidden">
-          <div className="text-center mb-10 mt-10">
-            <SectionHeader props="Companies" />
-          </div>
-          <div className="mx-auto max-w-2xl">
-            <Marquee
-              gradient={true}
-              gradientColor={"#1A1A1D"} // #1A1A1D in RGB
-              speed={90}
-            >
-              <div className="mx-8">
-                {/* <h2 className="text-4xl text-white">Denim</h2> */}
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company1}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                {/* <h2 className="text-4xl text-white">Nescafe</h2> */}
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company2}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                {/* <h2 className="text-4xl text-white">Nafis Salim</h2> */}
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company3}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company4}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company5}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company6}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company7}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company8}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company9}
-                  alt=""
-                />
-              </div>
-              <div className="mx-8">
-                <img
-                  className="object-cover h-16 w-full"
-                  src={company10}
-                  alt=""
-                />
-              </div>
-            </Marquee>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:px-20">
+          {projects.map((project, idx) => (
+            <NewProjectCard key={idx} link={project.url} img={project.img} />
+          ))}
         </div>
       </div>
-    </>
+
+      <div className="px-4 lg:px-20 mb-12">
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white lg:px-20">
+            Documentaries
+          </h3>
+          <div className="hidden lg:block flex-1 mx-8">
+            <hr className="h-1 bg-gradient-to-r from-transparent to-purple-600" />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6 lg:px-20">
+          {documentaries.map((project, idx) => (
+            <NewProjectCard key={idx} link={project.url} img={project.img} />
+          ))}
+        </div>
+      </div>
+
+      <div className="relative w-full py-12 overflow-hidden">
+        <div className="text-center mb-10">
+          <SectionHeader props="Companies" />
+        </div>
+        <div className="mx-auto max-w-6xl">
+          <Marquee gradient={true} gradientColor={"#000000"} speed={50}>
+            {[
+              company1,
+              company2,
+              company3,
+              company4,
+              company5,
+              company6,
+              company7,
+              company8,
+              company9,
+              company10,
+            ].map((company, idx) => (
+              <div key={idx} className="mx-8 flex items-center">
+                <img
+                  className="object-contain h-12 md:h-16 w-auto grayscale hover:grayscale-0 transition-all duration-300"
+                  src={company}
+                  alt={`Company ${idx + 1}`}
+                />
+              </div>
+            ))}
+          </Marquee>
+        </div>
+      </div>
+    </div>
   );
 };
 
