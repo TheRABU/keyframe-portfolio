@@ -60,30 +60,30 @@ const Clients = () => {
         </h2>
         <div className="mx-auto mt-4 mb-14 flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between lg:gap-0 max-w-6xl">
           <div className="flex flex-col items-center text-center flex-1">
-            <h1 className="text-4xl md:text-5xl font-semibold text-white">
+            <h1 className="text-5xl font-semibold text-white">
               <span className="text-[#5B23FF]">+</span>
               <AnimatedCounter end={450} duration={2500} />
             </h1>
-            <p className="text-gray-300 mt-2">Projects Completed</p>
+            <p className="text-gray-300 mt-2 text-xl">Projects Completed</p>
           </div>
 
           <div className="hidden lg:block h-16 w-px bg-white/30"></div>
 
           <div className="flex flex-col items-center text-center flex-1">
-            <h1 className="text-4xl md:text-5xl font-semibold text-white">
+            <h1 className="text-5xl font-semibold text-white">
               <span className="text-[#5B23FF]">+</span>
               <AnimatedCounter end={45} duration={2000} />
             </h1>
-            <p className="text-gray-300 mt-2">Satisfied Clients</p>
+            <p className="text-gray-300 mt-2 text-xl">Satisfied Clients</p>
           </div>
 
           <div className="hidden lg:block h-16 w-px bg-white/30"></div>
           <div className="flex flex-col items-center text-center flex-1">
-            <h1 className="text-4xl md:text-5xl font-semibold text-white">
+            <h1 className="text-5xl font-semibold text-white">
               <span className="text-[#5B23FF]">+</span>
               <AnimatedCounter end={17} duration={2000} suffix="M" />
             </h1>
-            <p className="text-gray-300 mt-2">Views</p>
+            <p className="text-gray-300 mt-2 text-xl">Views</p>
           </div>
         </div>
         <div className="flex flex-wrap justify-center gap-6">
