@@ -115,7 +115,7 @@ const ProjectRequest = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-16">
+            <div className="mb-4">
               <label
                 htmlFor="message"
                 className="text-2xl leading-7 text-white"

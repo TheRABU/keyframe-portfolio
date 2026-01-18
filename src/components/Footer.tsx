@@ -36,8 +36,8 @@ const Footer = () => {
           {/* Logo/Name section */}
           <div className="group">
             <div className="flex items-center space-x-2 mb-6">
-              <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
-                Keyframe.com
+              <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-[#5B23FF]">
+                Keyframevisuals.com
               </h2>
             </div>
             <p className="text-gray-300 mb-6">
@@ -165,7 +165,7 @@ const Footer = () => {
                 />
                 <button
                   type="submit"
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-4 py-1 transition"
+                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#5B23FF] hover:bg-blue-600 text-white rounded-lg px-4 py-1 transition"
                 >
                   <svg
                     className="w-5 h-5"
