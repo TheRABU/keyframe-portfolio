@@ -46,7 +46,7 @@ const AnimatedCounter = ({
 
   const animateCounter = () => {
     const startTime = Date.now();
-    const endTime = startTime + duration;
+    // const endTime = startTime + duration;
 
     const updateCounter = () => {
       const now = Date.now();
