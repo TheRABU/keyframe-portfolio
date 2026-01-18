@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 interface TestimonialCardProps {
   testimonial: string;
   name: string;
@@ -16,29 +17,28 @@ const TestimonialCard = ({
   testimonial,
   name,
   role,
-  rating,
   image,
 }: TestimonialCardProps) => {
   // Generate stars based on rating
-  const renderStars = () => {
-    return Array.from({ length: 5 }, (_, index) => (
-      <span key={index}>
-        {index < rating ? (
-          <span className="text-yellow-400 text-xl">★</span>
-        ) : (
-          <span className="text-gray-600 text-xl">☆</span>
-        )}
-      </span>
-    ));
-  };
+  // const renderStars = () => {
+  //   return Array.from({ length: 5 }, (_, index) => (
+  //     <span key={index}>
+  //       {index < rating ? (
+  //         <span className="text-yellow-400 text-xl">★</span>
+  //       ) : (
+  //         <span className="text-gray-600 text-xl">☆</span>
+  //       )}
+  //     </span>
+  //   ));
+  // };
 
   return (
-    <div className="bg-gray-100/5 rounded-2xl p-6 border border-gray-100/10 hover:border-gray-600 transition-all duration-300 hover:shadow-xl hover:shadow-purple-900 flex flex-col text-center h-full drop-shadow-sm drop-shadow-[#5B23FF]">
+    <div className="bg-gray-100/5 rounded-2xl p-6 py-10 border border-gray-100/10 hover:border-gray-600 transition-all duration-300 hover:shadow-xl hover:shadow-purple-900 flex flex-col text-center h-full drop-shadow-sm drop-shadow-[#5B23FF]">
       <div className="flex-1 mb-6">
         <p className="text-white text-md leading-relaxed">"{testimonial}"</p>
       </div>
       <div className="flex flex-col mx-auto">
-        <div className=" mb-6">{renderStars()}</div>
+        {/* <div className=" mb-6">{renderStars()}</div> */}
         <div className="flex flex-col items-center">
           <img
             src={image}
@@ -58,15 +58,6 @@ const TestimonialCard = ({
 const TestimonialsDemo = () => {
   const testimonials = [
     {
-      id: 1,
-      testimonial:
-        "I've been using this web hosting service for over a year and I'm really impressed with the uptime and support. The website has never gone down and the customer service is always quick to help with any issues I have. Highly recommend!",
-      name: "HJ Creatives",
-      role: "Ad Strategist",
-      rating: 5,
-      image: test1,
-    },
-    {
       id: 2,
       testimonial:
         "I've been using this web hosting service for a few months now and overall it's been fine. The uptime has been good and I haven't had any major issues. The pricing is also reasonable. Nothing particularly stands out as exceptional, but it gets the job done.",
@@ -75,6 +66,16 @@ const TestimonialsDemo = () => {
       rating: 4,
       image: test2,
     },
+    {
+      id: 1,
+      testimonial:
+        "I've been using this web hosting service for over a year and I'm really impressed with the uptime and support. The website has never gone down and the customer service is always quick to help with any issues I have. Highly recommend!",
+      name: "HJ Creatives",
+      role: "Ad Strategist",
+      rating: 5,
+      image: test1,
+    },
+
     {
       id: 3,
       testimonial:

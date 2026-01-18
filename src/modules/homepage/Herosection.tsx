@@ -26,7 +26,13 @@ const Herosection = () => {
             <span className="font-apple text-[#6A5FFE] px-5">Editing</span>
             <span className="flex items-center justify-start gap-1">
               <span>for</span>
-              <motion.span className="inline-flex items-center justify-center bg-gradient-to-b from-purple-500 to-purple-600 h-16 w-16 md:h-20 md:w-20 lg:h-18 lg:w-18 rounded-2xl mx-8">
+              <motion.span
+                style={{
+                  filter:
+                    "drop-shadow(0 0 80px rgba(147,51,234,0.9)) drop-shadow(0 0 160px rgba(147,51,234,0.6)) drop-shadow(0 0 300px rgba(147,51,234,0.3))",
+                }}
+                className="inline-flex items-center justify-center bg-gradient-to-r from-purple-500 to-[#6A5FFE] h-16 w-16 md:h-20 md:w-20 lg:h-18 lg:w-18 rounded-2xl mx-8 shadow-[0_0_50px_rgba(147,51,234,0.8)] hover:scale-105"
+              >
                 <span className="text-3xl md:text-4xl lg:text-5xl">
                   <img
                     className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-16 object-contain"

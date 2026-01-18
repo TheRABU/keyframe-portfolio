@@ -36,7 +36,7 @@ const Footer = () => {
           {/* Logo/Name section */}
           <div className="group">
             <div className="flex items-center space-x-2 mb-6">
-              <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-[#5B23FF]">
+              <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-[#6A5FFE]">
                 Keyframevisuals.com
               </h2>
             </div>
@@ -67,16 +67,16 @@ const Footer = () => {
           <div className="group">
             <h3 className="text-lg font-semibold mb-6 relative inline-block">
               <span className="relative z-10">Quick Links</span>
-              <span className="absolute bottom-0 left-0 w-full h-1 bg-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+              <span className="absolute bottom-0 left-0 w-full h-1 bg-[#6A5FFE] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
             </h3>
             <ul className="space-y-3">
-              {["Home", "Projects", "Services", "Blog"].map((item, idx) => (
+              {["portfolio", "Clients", "Services"].map((item, idx) => (
                 <li key={idx}>
                   <a
                     href="#"
                     className="text-gray-300 hover:text-white hover:pl-2 transition-all duration-300 flex items-center"
                   >
-                    <span className="w-1 h-1 bg-blue-500 rounded-full mr-2 opacity-0 group-hover:opacity-100 transition duration-300"></span>
+                    <span className="w-1 h-1 bg-[#6A5FFE] rounded-full mr-2 opacity-0 group-hover:opacity-100 transition duration-300"></span>
                     {item}
                   </a>
                 </li>
@@ -92,7 +92,7 @@ const Footer = () => {
                 <div className="flex-shrink-0 mt-1">
                   <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center animate-pulse">
                     <svg
-                      className="w-4 h-4 text-blue-400"
+                      className="w-4 h-4 text-[#6A5FFE]"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -110,9 +110,9 @@ const Footer = () => {
                   <p className="text-sm text-gray-300">Email</p>
                   <a
                     href="mailto:manueljosedala@hotmail.com"
-                    className="text-white hover:text-blue-400 transition"
+                    className="text-white hover:text-[#6A5FFE] transition"
                   >
-                    manueljosedala@hotmail.com
+                    director.keyframe@gmail.com
                   </a>
                 </div>
               </li>
@@ -123,7 +123,7 @@ const Footer = () => {
                     style={{ animationDelay: "0.2s" }}
                   >
                     <svg
-                      className="w-4 h-4 text-blue-400"
+                      className="w-4 h-4 text-[#6A5FFE]"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -141,7 +141,7 @@ const Footer = () => {
                   <p className="text-sm text-gray-300">Phone</p>
                   <a
                     href="tel:+244941540352"
-                    className="text-white hover:text-blue-400 transition"
+                    className="text-white hover:text-[#6A5FFE] transition"
                   >
                     +244 941 540 352
                   </a>
@@ -165,7 +165,7 @@ const Footer = () => {
                 />
                 <button
                   type="submit"
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#5B23FF] hover:bg-blue-600 text-white rounded-lg px-4 py-1 transition"
+                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#6A5FFE] hover:bg-[#5B23FF] text-white rounded-lg px-4 py-1 transition"
                 >
                   <svg
                     className="w-5 h-5"
@@ -189,7 +189,7 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; <span className="text-blue-400">{year}</span> keyframe. All
+            &copy; <span className="text-[#6A5FFE]">{year}</span> keyframe. All
             rights reserved.
           </p>
           <div className="flex space-x-6">
