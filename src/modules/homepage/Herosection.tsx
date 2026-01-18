@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import keyframeLogo from "../../assets/keyframe_logo.png";
 
-import kf2 from "../../assets/kf2.png";
+import logoBlack from "../../assets/logo_black.png";
 import { MdArrowOutward } from "react-icons/md";
 
 const Herosection = () => {
@@ -15,21 +15,22 @@ const Herosection = () => {
       <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:px-12">
           <div className="flex justify-center items-center pt-10 space-x-1.5">
-            <div className="h-2.5 w-2.5 bg-[#5B23FF] rounded-full"></div>
+            <div className="h-2.5 w-2.5 bg-[#6A5FFE] rounded-full"></div>
             <p className="mb-8 font-semibold text-xl text-white mt-8">
               Available for New Projects
             </p>
           </div>
 
-          <h1 className="w-full lg:w-4/6 mx-auto mb-4 text-4xl font-semibold tracking-tight leading-none text-white md:text-5xl lg:text-7xl flex flex-wrap items-center justify-center gap-0.5">
-            <span>High-Retention Editing</span>
+          <h1 className="w-full mx-auto mb-4 text-4xl tracking-tight leading-none font-sf-pro font-thin text-white md:text-5xl lg:text-8xl flex flex-wrap items-center justify-center gap-0.5">
+            High-Retention
+            <span className="font-apple text-[#6A5FFE] px-5">Editing</span>
             <span className="flex items-center justify-start gap-1">
               <span>for</span>
-              <motion.span className="inline-flex items-center justify-center h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24">
-                <span className="text-3xl md:text-4xl lg:text-5xl mt-2">
+              <motion.span className="inline-flex items-center justify-center bg-gradient-to-b from-purple-500 to-purple-600 h-16 w-16 md:h-20 md:w-20 lg:h-18 lg:w-18 rounded-2xl mx-8">
+                <span className="text-3xl md:text-4xl lg:text-5xl">
                   <img
-                    className="w-8 h-8 md:w-10 md:h-10 lg:w-16 lg:h-16 object-contain"
-                    src={kf2}
+                    className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-16 object-contain"
+                    src={logoBlack}
                     alt=""
                   />
                 </span>
@@ -45,7 +46,7 @@ const Herosection = () => {
             <a
               href="www.youtube.com"
               target="_blank"
-              className="group rounded-full border border-[#5B23FF] p-3 px-14 text-lg text-white font-semibold bg-gradient-to-r from-purple-400 to-[#5B23FF] transition-all duration-300 hover:shadow-[0_0_50px_rgba(147,51,234,0.8)] hover:scale-105"
+              className="group rounded-full border border-[#5B23FF] p-3 px-14 text-lg text-white font-semibold bg-gradient-to-r from-purple-500 to-[#6A5FFE] transition-all duration-300 hover:shadow-[0_0_50px_rgba(147,51,234,0.8)] hover:scale-105"
             >
               <div className="flex justify-center items-center gap-x-2">
                 <p>Book a Call</p>

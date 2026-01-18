@@ -101,7 +101,7 @@ const Projects = () => {
             Youtube & VSL's
           </h3>
           <div className="hidden lg:block flex-1 mx-28">
-            <hr className="h-max left-2 bg-[#5B23FF]" />
+            <hr className="h-max left-2 bg-[#6A5FFE]" />
           </div>
         </div>
 

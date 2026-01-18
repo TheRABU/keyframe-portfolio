@@ -2,6 +2,21 @@
 @plugin "daisyui";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: Sf;
+  src: url("../src/assets/fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+
+@font-face {
+  font-family: Apple;
+  src: url("../src/assets/fonts/AppleGaramond-Italic.ttf");
+}
+
+@theme {
+  --font-sf-pro: Sf, "sans-serif";
+  --font-apple: Apple, "sans-serif";
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

@@ -5,6 +5,12 @@ interface TestimonialCardProps {
   rating: number;
   image: string;
 }
+import test1 from "../assets/testimonials/HJ Creatives(Ad Strategist).jpg";
+import test2 from "../assets/testimonials/Jaroslav (YouTube Growth Partne).jpg";
+import test3 from "../assets/testimonials/Jayton Burnett (Marketing Strategist) .jpg";
+import test4 from "../assets/testimonials/Jordan Rafealov (SaaS Growth Partner).jpg";
+import test5 from "../assets/testimonials/Samu (YouTube Growth Strategist).jpg";
+import test6 from "../assets/testimonials/TechYeti (Software Company) .png";
 
 const TestimonialCard = ({
   testimonial,
@@ -55,61 +61,55 @@ const TestimonialsDemo = () => {
       id: 1,
       testimonial:
         "I've been using this web hosting service for over a year and I'm really impressed with the uptime and support. The website has never gone down and the customer service is always quick to help with any issues I have. Highly recommend!",
-      name: "Jane Smith",
-      role: "Freelance Designer",
+      name: "HJ Creatives",
+      role: "Ad Strategist",
       rating: 5,
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+      image: test1,
     },
     {
       id: 2,
       testimonial:
         "I've been using this web hosting service for a few months now and overall it's been fine. The uptime has been good and I haven't had any major issues. The pricing is also reasonable. Nothing particularly stands out as exceptional, but it gets the job done.",
-      name: "Tom Williams",
-      role: "Software Developer",
-      rating: 3,
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+      name: "Jaroslav",
+      role: "Youtube  Growth Partner",
+      rating: 4,
+      image: test2,
     },
     {
       id: 3,
       testimonial:
         "I've been using this web hosting service for a few months and it's been nothing but problems. My website has gone down multiple times and the customer service has been unresponsive. I would not recommend this company.",
-      name: "Michael Brown",
-      role: "Online Entrepreneur",
-      rating: 1,
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
+      name: "Jayton Burnett",
+      role: "Marketing Strategist",
+      rating: 4,
+      image: test3,
     },
     {
       id: 4,
       testimonial:
         "I was a little hesitant to try this hosting company, but I'm glad I took the plunge. The control panel is intuitive and I love the one-click installs for popular apps. Everything has been smooth sailing since I made the switch.",
-      name: "Sarah Johnson",
-      role: "Blogger",
+      name: "Jordan Refealov",
+      role: "SaaS Growth Partner",
       rating: 4,
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
+      image: test4,
     },
     {
       id: 5,
       testimonial:
         "Excellent service! The speed and reliability are top-notch. Customer support team is incredibly helpful and responsive. I've migrated all my client websites here.",
-      name: "David Lee",
-      role: "Web Developer",
+      name: "Samu",
+      role: "Youtube  Growth Strategist",
       rating: 5,
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
+      image: test5,
     },
     {
       id: 6,
       testimonial:
-        "Good value for money. The hosting plans are affordable and come with all the features I need. Setup was straightforward and the documentation is helpful.",
-      name: "Emily Chen",
-      role: "Small Business Owner",
+        "He have been the best video editor I have worked with! He has an excellent understanding of styles and trends which allows his edits to always be on point and helps to increase engagement! Highly recommended ",
+      name: "TechYeti ",
+      role: "Software Company",
       rating: 4,
-      image:
-        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop",
+      image: test6,
     },
   ];
 
