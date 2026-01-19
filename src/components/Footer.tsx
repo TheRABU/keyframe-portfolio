@@ -22,7 +22,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="relative bg-gradient-to-br from-neutral-900 to-neutral-950 text-white overflow-hidden">
+    <footer className="relative bg-gradient-to-br from-[#080116] to-[#0C0C0C] text-white overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-20">
         <div className="absolute top-20 left-10 w-32 h-32 bg-[#6A5FFE] rounded-full filter blur-3xl animate-float1"></div>
