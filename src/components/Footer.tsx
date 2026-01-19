@@ -1,4 +1,10 @@
 import { useEffect, useState } from "react";
+import {
+  FaFacebookF,
+  FaXTwitter,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa6";
 
 const Footer = () => {
   const [year, setYear] = useState<number>(new Date().getFullYear());
@@ -41,7 +47,7 @@ const Footer = () => {
               </h2>
             </div>
             <p className="text-gray-300 mb-6">
-              Best creative solutions for your brand needs.
+              Ready to scale your brand with clear, high-quality visuals?
             </p>
 
             {/* <div className="flex space-x-4">
@@ -85,7 +91,8 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Get in Touch</h3>
+            <h3 className="text-lg font-semibold mb-0.5">Book a meeting</h3>
+            <p className="text-sm mb-3">Have a project in mind? Email us.</p>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
@@ -108,10 +115,29 @@ const Footer = () => {
                 <div className="ml-3">
                   <p className="text-sm text-gray-300">Email</p>
                   <a
-                    href="mailto:manueljosedala@hotmail.com"
+                    href="mailto:director.keyframe@gmail.com"
+                    target="_blank"
                     className="text-white hover:text-[#6A5FFE] transition"
                   >
                     director.keyframe@gmail.com
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center animate-pulse">
+                    <FaFacebookF className="w-3.5 h-3.5 text-[#6A5FFE]" />
+                  </div>
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm text-gray-300">Facebook</p>
+                  <a
+                    href="https://www.facebook.com/keyframe.ae"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-[#6A5FFE] transition"
+                  >
+                    Visit Page
                   </a>
                 </div>
               </li>
@@ -121,28 +147,54 @@ const Footer = () => {
                     className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center animate-pulse"
                     style={{ animationDelay: "0.2s" }}
                   >
-                    <svg
-                      className="w-4 h-4 text-[#6A5FFE]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                      />
-                    </svg>
+                    <FaWhatsapp className="w-4 h-4 text-[#6A5FFE]" />
                   </div>
                 </div>
                 <div className="ml-3">
-                  <p className="text-sm text-gray-300">Phone</p>
+                  <p className="text-sm text-gray-300">WhatsApp</p>
                   <a
-                    href="tel:+244941540352"
+                    href="https://wa.me/8801908020345"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-white hover:text-[#6A5FFE] transition"
                   >
-                    +244 941 540 352
+                    +8801908-020345
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center animate-pulse">
+                    <FaXTwitter className="w-4 h-4 text-[#6A5FFE]" />
+                  </div>
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm text-gray-300">X (Twitter)</p>
+                  <a
+                    href="https://x.com/sakib_ahmed1708"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-[#6A5FFE] transition"
+                  >
+                    Follow Us
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center animate-pulse">
+                    <FaLinkedinIn className="w-4 h-4 text-[#6A5FFE]" />
+                  </div>
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm text-gray-300">LinkedIn</p>
+                  <a
+                    href="https://linkedin.com/company/keyframe-ae"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-[#6A5FFE] transition"
+                  >
+                    Connect
                   </a>
                 </div>
               </li>
