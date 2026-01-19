@@ -88,7 +88,7 @@ const TestimonialsDemo = () => {
     {
       id: 4,
       testimonial:
-        "I was a little hesitant to try this hosting company, but I'm glad I took the plunge. The control panel is intuitive and I love the one-click installs for popular apps. Everything has been smooth sailing since I made the switch.",
+        "Just wanted to say how much we appreciate the work you’ve been doing with us. Your skills are genuinely impressive. The way you visualize ideas and bring them to life through animation is something we really admire. Every project feels thoughtfully crafted and creatively strong.",
       name: "Jordan Refealov",
       role: "SaaS Growth Partner",
       rating: 4,
@@ -97,7 +97,7 @@ const TestimonialsDemo = () => {
     {
       id: 5,
       testimonial:
-        "Excellent service! The speed and reliability are top-notch. Customer support team is incredibly helpful and responsive. I've migrated all my client websites here.",
+        "He has been great to work with. He's very reliable and organized. His work is top quality, and he's also good at implementing feedback. If anyone's thinking about working with them, I highly recommend it.",
       name: "Samu",
       role: "Youtube  Growth Strategist",
       rating: 5,
