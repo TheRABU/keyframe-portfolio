@@ -13,7 +13,7 @@ const Clients = () => {
     {
       image: davidDorn,
       name: "thedaviddorn",
-      stats: "30.7k subscribers",
+      stats: "30.7k followers",
       views: "2.1M",
       link: "https://www.instagram.com/thedaviddorn/?hl=en",
       platform: "instagram" as const,
