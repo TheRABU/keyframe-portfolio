@@ -60,7 +60,7 @@ const TestimonialsDemo = () => {
     {
       id: 2,
       testimonial:
-        "I've been using this web hosting service for a few months now and overall it's been fine. The uptime has been good and I haven't had any major issues. The pricing is also reasonable. Nothing particularly stands out as exceptional, but it gets the job done.",
+        " I've been working with Sakib & his team now with over 18 months together and they're with a doubt the best editors i've ever worked with. I have never seen such a production speed while still maintaining such high quality, always reliable as well & if any revisions are needed they are always done on time. I really can't find one negative thing that happened in all of the 1-2 years we've now been working together",
       name: "Jaroslav",
       role: "Youtube  Growth Partner",
       rating: 4,
@@ -69,7 +69,7 @@ const TestimonialsDemo = () => {
     {
       id: 1,
       testimonial:
-        "I've been using this web hosting service for over a year and I'm really impressed with the uptime and support. The website has never gone down and the customer service is always quick to help with any issues I have. Highly recommend!",
+        "I've been working with him for about two years now and he's one of the best editors I've ever worked with. The quality of his work is consistently excellent and he always delivers on time no matter how tight the deadline. He's reliable, skilled, and makes my job easier. I'd recommend him to anyone looking for a top tier editor.",
       name: "HJ Creatives",
       role: "Ad Strategist",
       rating: 5,
