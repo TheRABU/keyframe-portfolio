@@ -25,7 +25,7 @@ const Herosection = () => {
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
               className="inline-block"
             >
               High-Retention
@@ -34,7 +34,7 @@ const Herosection = () => {
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+              transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
               className="font-apple text-[#6A5FFE] px-2 sm:px-3 md:px-5 inline-block"
             >
               Editing
@@ -44,7 +44,7 @@ const Herosection = () => {
               <motion.span
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
+                transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
                 className="inline-block"
               >
                 for
@@ -54,11 +54,11 @@ const Herosection = () => {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 0.8,
-                  delay: 0.8,
+                  duration: 0.6,
+                  delay: 0.4,
                   type: "spring",
                   stiffness: 200,
-                  damping: 15,
+                  damping: 18,
                 }}
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 style={{
@@ -77,7 +77,7 @@ const Herosection = () => {
               <motion.span
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 1.0 }}
+                transition={{ duration: 0.5, delay: 0.5, ease: "easeOut" }}
                 className="inline-block"
               >
                 YouTube & VSLs
