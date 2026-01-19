@@ -4,6 +4,7 @@ import Herosection from "@/modules/homepage/Herosection";
 import ProjectRequest from "@/modules/homepage/ProjectRequest";
 import Projects from "@/modules/homepage/Projects";
 import QnaSection from "@/modules/homepage/QnaSection";
+import { Toaster } from "react-hot-toast";
 // import Testimonials from "@/modules/homepage/Testimonials";
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
           <TestimonialsDemo />
         </div>
         <div id="project-request">
+          <Toaster position="top-center" reverseOrder={false} />
           <ProjectRequest />
         </div>
         <div>
