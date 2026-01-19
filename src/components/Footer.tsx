@@ -91,8 +91,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-0.5">Book a meeting</h3>
-            <p className="text-sm mb-3">Have a project in mind? Email us.</p>
+            <h3 className="text-lg font-semibold mb-2">Get in Touch</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
@@ -203,9 +202,9 @@ const Footer = () => {
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Stay Updated</h3>
+            <h3 className="text-lg font-semibold mb-6">Book a meeting</h3>
             <p className="text-gray-300 mb-4">
-              Subscribe to my newsletter for the latest updates.
+              Have a project in mind? Email us.
             </p>
             <form className="mt-4">
               <div className="relative">
