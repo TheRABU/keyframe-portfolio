@@ -22,18 +22,50 @@ const Herosection = () => {
           </div>
 
           <h1 className="w-full mx-auto mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl tracking-tight leading-tight font-sf-pro font-thin text-white flex flex-wrap items-center justify-center gap-1 sm:gap-2 px-2">
-            <span className="inline-block">High-Retention</span>
-            <span className="font-apple text-[#6A5FFE] px-2 sm:px-3 md:px-5 inline-block">
+            <motion.span
+              initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+              className="inline-block"
+            >
+              High-Retention
+            </motion.span>
+
+            <motion.span
+              initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+              className="font-apple text-[#6A5FFE] px-2 sm:px-3 md:px-5 inline-block"
+            >
               Editing
-            </span>
+            </motion.span>
+
             <span className="flex items-center justify-center gap-1 sm:gap-2 flex-wrap">
-              <span className="inline-block">for</span>
               <motion.span
+                initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
+                className="inline-block"
+              >
+                for
+              </motion.span>
+
+              <motion.span
+                initial={{ opacity: 0, scale: 0.3, rotate: -180 }}
+                animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                transition={{
+                  duration: 1,
+                  delay: 1.1,
+                  type: "spring",
+                  stiffness: 150,
+                  damping: 12,
+                }}
+                whileHover={{ scale: 1.15, rotate: 10 }}
                 style={{
                   filter:
                     "drop-shadow(0 0 80px rgba(147,51,234,0.9)) drop-shadow(0 0 160px rgba(147,51,234,0.6)) drop-shadow(0 0 300px rgba(147,51,234,0.3))",
                 }}
-                className="inline-flex items-center justify-center bg-gradient-to-r from-purple-500 to-[#6A5FFE] h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 lg:h-20 lg:w-20 xl:h-24 xl:w-24 rounded-xl sm:rounded-2xl mx-1 sm:mx-2 md:mx-4 shadow-[0_0_50px_rgba(147,51,234,0.8)] hover:scale-105 transition-transform duration-300"
+                className="inline-flex items-center justify-center bg-gradient-to-r from-purple-500 to-[#6A5FFE] h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 lg:h-20 lg:w-20 xl:h-24 xl:w-24 rounded-xl sm:rounded-2xl mx-1 sm:mx-2 md:mx-4 shadow-[0_0_50px_rgba(147,51,234,0.8)] transition-transform duration-300"
               >
                 <img
                   className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 object-contain"
@@ -41,7 +73,15 @@ const Herosection = () => {
                   alt="Keyframe logo"
                 />
               </motion.span>
-              <span className="inline-block">YouTube & VSLs</span>
+
+              <motion.span
+                initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                transition={{ duration: 0.8, delay: 1.4, ease: "easeOut" }}
+                className="inline-block"
+              >
+                YouTube & VSLs
+              </motion.span>
             </span>
           </h1>
           {/* <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
