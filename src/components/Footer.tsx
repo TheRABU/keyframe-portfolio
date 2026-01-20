@@ -8,7 +8,6 @@ import {
 
 const Footer = () => {
   const [year, setYear] = useState<number>(new Date().getFullYear());
-  const [isOpen, setIsOpen] = useState(false);
 
   const quickLinks = [
     { name: "Portfolio", id: "portfolio" },
@@ -21,7 +20,6 @@ const Footer = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-    setIsOpen(false);
   };
 
   useEffect(() => {
