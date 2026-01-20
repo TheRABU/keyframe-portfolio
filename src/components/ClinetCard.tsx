@@ -17,10 +17,20 @@ const ClientCard = ({
   platform,
 }: ClientCardProps) => {
   const PlatformIcon = platform === "instagram" ? FaInstagram : FaYoutube;
+
   return (
-    <>
-      <main className="flex flex-col">
-        <div className="relative group w-44 sm:w-48 md:w-52 lg:w-56 xl:w-[152px] flex-shrink-0 cursor-pointer">
+    <main className="flex flex-col">
+      {/* Wrapping the entire block in a single anchor tag ensures 
+          the whole card is clickable and avoids z-index/layering issues.
+      */}
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block w-44 sm:w-48 md:w-52 lg:w-56 xl:w-[152px] flex-shrink-0"
+      >
+        <div className="relative">
+          {/* Image Container */}
           <div className="overflow-hidden rounded-2xl shadow-md">
             <img
               src={image}
@@ -29,24 +39,25 @@ const ClientCard = ({
             />
           </div>
 
-          {/* Hover overlay (eye + views) */}
-          <div className="absolute inset-0 flex items-center justify-center bg-black/50 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-300">
+          {/* Hover overlay 
+              Added 'pointer-events-none' so clicks pass through to the parent <a> 
+          */}
+          <div className="absolute inset-0 flex items-center justify-center bg-black/50 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
             <div className="flex items-center gap-2 text-white text-sm font-medium">
               <PlatformIcon className="w-7 h-7" />
-              {/* {views} */}
             </div>
           </div>
-
-          {/* Card text */}
         </div>
-        <a href={link} target="_blank">
-          <div className="mt-2 text-center">
-            <h3 className="font-semibold hover:underline text-white">{name}</h3>
-            <p className="text-gray-400 text-sm">{stats}</p>
-          </div>
-        </a>
-      </main>
-    </>
+
+        {/* Card text - Now inside the anchor for better UX */}
+        <div className="mt-2 text-center">
+          <h3 className="font-semibold group-hover:underline text-white">
+            {name}
+          </h3>
+          <p className="text-gray-400 text-sm">{stats}</p>
+        </div>
+      </a>
+    </main>
   );
 };
 

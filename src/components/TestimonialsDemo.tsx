@@ -60,26 +60,17 @@ const TestimonialsDemo = () => {
     {
       id: 2,
       testimonial:
-        " I've been working with Sakib & his team now with over 18 months together and they're with a doubt the best editors i've ever worked with. I have never seen such a production speed while still maintaining such high quality, always reliable as well & if any revisions are needed they are always done on time. I really can't find one negative thing that happened in all of the 1-2 years we've now been working together",
+        " I've been working with Sakib & his team now with over 18 months together and they're with a doubt the best editors i've ever worked with. I have never seen such a production speed while still maintaining such high quality, always reliable as well & if any revisions are needed they are always done on time. I really can't find one negative thing that happened in all of the 1-2 years we've now been working together. ",
       name: "Jaroslav",
       role: "Youtube  Growth Partner",
       rating: 4,
       image: test2,
     },
-    {
-      id: 1,
-      testimonial:
-        "I've been working with him for about two years now and he's one of the best editors I've ever worked with. The quality of his work is consistently excellent and he always delivers on time no matter how tight the deadline. He's reliable, skilled, and makes my job easier. I'd recommend him to anyone looking for a top tier editor.",
-      name: "HJ Creatives",
-      role: "Ad Strategist",
-      rating: 5,
-      image: test1,
-    },
 
     {
       id: 3,
       testimonial:
-        "I've been using this web hosting service for a few months and it's been nothing but problems. My website has gone down multiple times and the customer service has been unresponsive. I would not recommend this company.",
+        " In this industry, finding talent that is both creatively brilliant and reliable is incredibly rare. Keyframe is hands down the best VFX editor I have ever worked with. I’ve thrown very complex, detailed projects at him, and he knocks them out of the park every single time. He is fast, always responsive, and the quality of work is simply killer. If you need top-tier visuals without the headache of managing a slow workflow, hire him immediately.",
       name: "Jayton Burnett",
       role: "Marketing Strategist",
       rating: 4,
@@ -88,7 +79,7 @@ const TestimonialsDemo = () => {
     {
       id: 4,
       testimonial:
-        "Just wanted to say how much we appreciate the work you’ve been doing with us. Your skills are genuinely impressive. The way you visualize ideas and bring them to life through animation is something we really admire. Every project feels thoughtfully crafted and creatively strong.",
+        " Just wanted to say how much we appreciate the work you’ve been doing with us. Your skills are genuinely impressive. The way you visualize ideas and bring them to life through animation is something we really admire. Every project feels thoughtfully crafted and creatively strong. ",
       name: "Jordan Refealov",
       role: "SaaS Growth Partner",
       rating: 4,
@@ -97,16 +88,25 @@ const TestimonialsDemo = () => {
     {
       id: 5,
       testimonial:
-        "He has been great to work with. He's very reliable and organized. His work is top quality, and he's also good at implementing feedback. If anyone's thinking about working with them, I highly recommend it.",
+        " He has been great to work with. He's very reliable and organized. His work is top quality, and he's also good at implementing feedback. If anyone's thinking about working with them, I highly recommend it. ",
       name: "Samu",
       role: "Youtube  Growth Strategist",
       rating: 5,
       image: test5,
     },
     {
+      id: 1,
+      testimonial:
+        " I've been working with him for about two years now and he's one of the best editors I've ever worked with. The quality of his work is consistently excellent and he always delivers on time no matter how tight the deadline. He's reliable, skilled, and makes my job easier. I'd recommend him to anyone looking for a top tier editor. ",
+      name: "HJ Creatives",
+      role: "Ad Strategist",
+      rating: 5,
+      image: test1,
+    },
+    {
       id: 6,
       testimonial:
-        "He have been the best video editor I have worked with! He has an excellent understanding of styles and trends which allows his edits to always be on point and helps to increase engagement! Highly recommended ",
+        " He have been the best video editor I have worked with! He has an excellent understanding of styles and trends which allows his edits to always be on point and helps to increase engagement! Highly recommended. ",
       name: "TechYeti ",
       role: "Software Company",
       rating: 4,
