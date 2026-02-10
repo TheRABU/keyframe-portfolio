@@ -118,6 +118,35 @@ const Footer = () => {
               <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                    <svg
+                      className="w-4 h-4 text-[#6A5FFE]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm text-gray-300">Business Email</p>
+                  <a
+                    href="mailto:director.keyframe@gmail.com"
+                    target="_blank"
+                    className="text-white hover:text-[#6A5FFE] transition"
+                  >
+                    director.keyframe@gmail.com
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
                     <FaFacebookF className="w-3.5 h-3.5 text-[#6A5FFE]" />
                   </div>
                 </div>

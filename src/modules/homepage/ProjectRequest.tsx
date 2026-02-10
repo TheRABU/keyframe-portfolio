@@ -72,7 +72,7 @@ const ProjectRequest = () => {
   return (
     <div className="bg-[#000000] py-16">
       <div className="text-center mb-12">
-        <SectionHeader props="Project Request" />
+        <SectionHeader props="Contact us" />
       </div>
 
       <div className="max-w-7xl mx-auto px-5">
@@ -86,42 +86,44 @@ const ProjectRequest = () => {
 
               {/* Keyframe Brand */}
               <h2 className="text-5xl md:text-6xl font-bold text-indigo-600 mb-8">
-                keyframe
+                Keyframe
               </h2>
 
               {/* Contacts Heading */}
-              <h3 className="text-3xl font-bold text-white mb-8">Contacts</h3>
+              <h3 className="text-3xl font-bold text-white mb-8">
+                Business Information & Contacts
+              </h3>
 
               {/* Contact Information */}
-              <div className="space-y-6 text-white">
+              <div className="space-y-3 text-white">
                 {/* Business Owner */}
                 <div>
-                  <p className="text-sm text-gray-400 mb-1">Business owner</p>
+                  <p className="text-sm text-gray-400">Account Holder</p>
                   <p className="text-xl font-semibold">Samad Ahmed</p>
                 </div>
 
-                {/* Email */}
-                <div>
-                  <p className="text-sm text-gray-400 mb-1">Email</p>
-                  <p className="text-lg">samadahmed1806@gmail.com</p>
-                </div>
+                <div className="email mb-6">
+                  <div>
+                    <p className="text-sm text-gray-400">Email</p>
+                    <p className="text-lg">samadahmed1806@gmail.com</p>
+                  </div>
 
-                {/* Business Email */}
-                <div>
-                  <p className="text-sm text-gray-400 mb-1">Business email</p>
-                  <p className="text-lg">director.keyframe@gmail.com</p>
+                  <div>
+                    <p className="text-sm text-gray-400">Business email</p>
+                    <p className="text-lg">director.keyframe@gmail.com</p>
+                  </div>
                 </div>
 
                 {/* Phone */}
                 <div>
-                  <p className="text-sm text-gray-400 mb-1">Phone</p>
-                  <p className="text-lg">+880 1971429773</p>
+                  {/* <p className="text-sm text-gray-400 mb-1">Phone</p> */}
+                  <p className="text-sm">+880 1971429773</p>
                 </div>
 
                 {/* Address */}
                 <div>
-                  <p className="text-sm text-gray-400 mb-1">Address</p>
-                  <p className="text-lg">
+                  {/* <p className="text-sm text-gray-400 mb-1">Address</p> */}
+                  <p className="text-sm">
                     295 F Tali Office Road,
                     <br />
                     Dhaka, 1209, Bangladesh
