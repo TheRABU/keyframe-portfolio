@@ -60,7 +60,7 @@ const TestimonialsDemo = () => {
     {
       id: 2,
       testimonial:
-        "I've been working with Sakib & his team now with over 18 months together and they're with a doubt the best editors i've ever worked with. I have never seen such a production speed while still maintaining such high quality, always reliable as well & if any revisions are needed they are always done on time. I really can't find one negative thing that happened in all of the 1-2 years we've now been working together.",
+        "I've been working with Samad & his team now with over 18 months together and they're with a doubt the best editors i've ever worked with. I have never seen such a production speed while still maintaining such high quality, always reliable as well & if any revisions are needed they are always done on time. I really can't find one negative thing that happened in all of the 1-2 years we've now been working together.",
       name: "Jaroslav",
       role: "Youtube  Growth Partner",
       rating: 4,

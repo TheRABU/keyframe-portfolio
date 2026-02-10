@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react";
 import {
   FaFacebookF,
@@ -111,11 +112,11 @@ const Footer = () => {
                 <div className="ml-3">
                   <p className="text-sm text-gray-300">Email</p>
                   <a
-                    href="mailto:director.keyframe@gmail.com"
+                    href="mailto:samadahmed1806@gmail.com"
                     target="_blank"
                     className="text-white hover:text-[#6A5FFE] transition"
                   >
-                    director.keyframe@gmail.com
+                    samadahmed1806@gmail.com
                   </a>
                 </div>
               </li>
@@ -149,16 +150,16 @@ const Footer = () => {
                 <div className="ml-3">
                   <p className="text-sm text-gray-300">WhatsApp</p>
                   <a
-                    href="https://wa.me/8801908020345"
+                    href="https://wa.me/8801971429773"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:text-[#6A5FFE] transition"
                   >
-                    +8801908-020345
+                    +880 1971429773
                   </a>
                 </div>
               </li>
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
                     <FaXTwitter className="w-4 h-4 text-[#6A5FFE]" />
@@ -193,7 +194,7 @@ const Footer = () => {
                     Connect
                   </a>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
 
