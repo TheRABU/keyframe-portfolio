@@ -1,11 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react";
-import {
-  FaFacebookF,
-  FaXTwitter,
-  FaLinkedinIn,
-  FaWhatsapp,
-} from "react-icons/fa6";
+import { FaFacebookF, FaWhatsapp } from "react-icons/fa6";
 
 const Footer = () => {
   const [year, setYear] = useState<number>(new Date().getFullYear());
