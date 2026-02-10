@@ -80,19 +80,18 @@ const ProjectRequest = () => {
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
           {/* Left Side - Contact Details (1/3) */}
           <div className="lg:w-1/3">
-            <div className="relative pl-6">
+            {/* Keyframe Brand */}
+            <h2 className="text-5xl md:text-8xl font-bold text-indigo-600 mb-6">
+              Keyframe
+            </h2>
+
+            {/* Contacts Heading */}
+            <h3 className="text-3xl font-bold text-white mb-16">
+              Business Information & Contacts
+            </h3>
+            <div className="relative pl-6 py-8">
               {/* Vertical Accent Line */}
               <div className="absolute left-0 top-0 bottom-0 w-1 bg-indigo-600"></div>
-
-              {/* Keyframe Brand */}
-              <h2 className="text-5xl md:text-6xl font-bold text-indigo-600 mb-8">
-                Keyframe
-              </h2>
-
-              {/* Contacts Heading */}
-              <h3 className="text-3xl font-bold text-white mb-8">
-                Business Information & Contacts
-              </h3>
 
               {/* Contact Information */}
               <div className="space-y-3 text-white">
@@ -108,7 +107,7 @@ const ProjectRequest = () => {
                     <p className="text-lg">samadahmed1806@gmail.com</p>
                   </div>
 
-                  <div>
+                  <div className="mb-10">
                     <p className="text-sm text-gray-400">Business email</p>
                     <p className="text-lg">director.keyframe@gmail.com</p>
                   </div>

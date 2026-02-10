@@ -24,7 +24,7 @@ const Home = () => {
           {/* <Testimonials /> */}
           <TestimonialsDemo />
         </div>
-        <div id="project-request">
+        <div id="contact-us">
           <Toaster position="top-center" reverseOrder={false} />
           <ProjectRequest />
         </div>

@@ -174,10 +174,10 @@ const Navbar = () => {
               Testimonials
             </button>
             <button
-              onClick={() => scrollToSection("project-request")}
+              onClick={() => scrollToSection("contact-us")}
               className="px-4 py-2 rounded-full border border-transparent text-neutral-300 hover:border-gray-800/50 hover:bg-neutral-800 hover:text-white whitespace-nowrap text-sm"
             >
-              Project Request
+              Contact Us
             </button>
             <a
               href="https://calendly.com/director-keyframe/30min"
