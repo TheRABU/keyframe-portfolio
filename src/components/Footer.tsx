@@ -86,7 +86,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-2">Get in Touch</h3>
             <ul className="space-y-4">
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
                     <svg
@@ -114,7 +114,7 @@ const Footer = () => {
                     samadahmed1806@gmail.com
                   </a>
                 </div>
-              </li>
+              </li> */}
               <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
@@ -261,8 +261,8 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; <span className="text-[#6A5FFE]">{year}</span> keyframe. All
-            rights reserved.
+            &copy; <span className="text-[#6A5FFE]">{year}</span>{" "}
+            Keyframevisuals | Owned and Operated by Samad Ahmed.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white transition">
