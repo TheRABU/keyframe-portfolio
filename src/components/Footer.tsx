@@ -262,7 +262,7 @@ const Footer = () => {
         <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             &copy; <span className="text-[#6A5FFE]">{year}</span>{" "}
-            Keyframevisuals | Owned and Operated by Sakib Ahmed.
+            Keyframevisuals
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white transition">
