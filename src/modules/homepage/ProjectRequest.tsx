@@ -72,7 +72,7 @@ const ProjectRequest = () => {
         <SectionHeader props="Contact us" />
       </div>
 
-      <div className="max-w-3xl mx-auto px-5">
+      <div className="max-w-7xl mx-auto px-5">
         <form ref={formRef} onSubmit={handleSubmit} noValidate>
           <div className="flex flex-col space-y-10">
             {/* Name & Email Row */}
